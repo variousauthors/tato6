@@ -1,9 +1,16 @@
+// @ts-check
 const ModFile = require("mc-curseforge-api/objects/Files");
 const fs = require('fs');
-
 const Nick = require("nickjs")
 const userAgent = require('user-agents');
-const nick = new Nick({
+
+/**
+ * @typedef {Object} Nick
+ * @property {() => any} newTab
+ * @property {(exitCode: number) => any} exit
+ */
+
+const nick = /** @type {Nick} */ (new Nick({
   loadImages: false,
   printAborts: false,
   printResourceErrors: false,
@@ -11,11 +18,11 @@ const nick = new Nick({
   resourceTimeout: 10000,
   userAgent: userAgent.toString(),
   whitelist: [/.*files/]
-})
+}))
 
 const rawdata = fs.readFileSync('manifest.json');
-const manifest = JSON.parse(rawdata);
-const detailedManifest = JSON.parse(rawdata);
+const manifest = JSON.parse(rawdata.toString());
+const detailedManifest = JSON.parse(rawdata.toString());
 
 const stack = Object.keys(manifest).map((key) => ({ key, path: key, body: manifest[key] }))
 let i = 0
@@ -25,29 +32,35 @@ const work = []
 while (stack.length > 0 && i < 10) {
   const current = stack.pop()
 
-  if (current['slug']) {
-    console.log('encountered a slug', current.path, current.slug)
+  function slugIsMissingData (slug) {
+    return isNil(slug.fileId) || isNil(slug.filename || isNil(slug.md5))
+  }
 
-    // add an entry to the detailed manifest
-    const keys = current.path.split('/')
-    const siblings = keys.reduce((lens, key) => {
-      return lens[key]
-    }, detailedManifest)
+  /**
+   * @typedef {Object} ModEntry
+   * @property {string} slug
+   */
 
-    const lens = siblings.find((sibling) => sibling.slug === current.slug)
+  /** @return {obj is ModEntry} */
+  function isModEntry (obj) {
+    return isDefined(obj.slug)
+  }
 
-    work.push(augmentWithDetails(lens))
+  if (isModEntry(current)) {
+    if (slugIsMissingData(current)) {
+      console.log('encountered a slug with missing details', JSON.stringify(current, null, 2))
 
-  } else {
-    console.log('making dir', current.path)
+      const keys = current.path.split('/')
+      const siblings = keys.reduce((obj, key) => {
+        return obj[key]
+      }, detailedManifest)
 
-    // create directory
-    const dirpath = `${__dirname}/${current.path}`
+      const modEntry = siblings.find((sibling) => sibling.slug === current.slug)
 
-    if (!fs.existsSync(dirpath)) {
-      fs.mkdirSync(dirpath)
+      work.push(augmentWithDetails(modEntry))
     }
-
+  } else {
+    // we need to go deeper
     const next = Array.isArray(current.body)
       ? current.body.map((obj) => ({ path: `${current.path}`, ...obj })) 
       : Object.keys(current.body).map((key) => ({ key, path: `${current.path}/${key}`, body: current.body[key] }))
@@ -60,9 +73,11 @@ while (stack.length > 0 && i < 10) {
 
 Promise.all(work)
   .then(() => {
-    console.log('Done!')
-    console.log(JSON.stringify(detailedManifest, null, 2))
+    // write the detailed manifest to the filesystem
+    const data = JSON.stringify(detailedManifest, null, 2)
+    fs.writeFileSync('manifest.json', data)
 
+    console.log('Done!')
     nick.exit(0)
   })
   .catch((err) => {
@@ -139,17 +154,32 @@ async function augmentWithDetails(obj) {
       })
     })
 
-  function downloadTheFiles(files) {
-    return Promise.all(files.map((file) => {
-      return new ModFile({
-        id: file.fileId,
-        file_name: file.filename,
-        file_md5: file.md5
-      }).download(`/Users/zeigfreid/Documents/Tato6/v0.0.3/${file.filename}`)
-    }))
-  }
-
   function pageUrl(slug) {
     return `https://www.curseforge.com/minecraft/mc-mods/${slug}/files`
   }
+}
+
+function downloadTheFiles(files) {
+  // create mods directory
+  const dirpath = `${__dirname}/blogs`
+
+  if (!fs.existsSync(dirpath)) {
+    fs.mkdirSync(dirpath)
+  }
+
+  return Promise.all(files.map((file) => {
+    return new ModFile({
+      id: file.fileId,
+      file_name: file.filename,
+      file_md5: file.md5
+    }).download(`${dirpath}/${file.filename}`, undefined, undefined)
+  }))
+}
+
+function isNil (obj) {
+  return obj === undefined || obj === null
+}
+
+function isDefined (obj) {
+  return !isNil(obj)
 }

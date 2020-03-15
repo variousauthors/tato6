@@ -1,0 +1,17 @@
+{
+  "name": "tato-6",
+  "version": "0.0.3",
+  "description": "a little modpack",
+  "main": "index.js",
+  "author": "various.authors <various.authors@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mc-curseforge-api": "^1.0.6",
+    "mem-fs": "^1.1.3",
+    "mem-fs-editor": "^6.0.0",
+    "nickjs": "^0.3.7",
+    "puppeteer": "^2.1.1",
+    "puppeteer-core": "^2.1.1",
+    "user-agents": "^1.0.559"
+  }
+}

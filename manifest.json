@@ -1,0 +1,19 @@
+{
+  "blogs": {
+    "core": [
+      {
+        "slug": "jei"
+      }
+    ],
+    "near-overworld": {
+      "magic": [
+        {
+          "slug": "botania"
+        }
+      ]
+    }
+  },
+  "dogs": {
+
+  }
+}

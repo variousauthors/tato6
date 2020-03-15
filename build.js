@@ -4,6 +4,8 @@ const fs = require('fs');
 const Nick = require("nickjs")
 const userAgent = require('user-agents');
 
+const scrapers = require('./scrapers')
+
 /**
  * @typedef {Object} Nick
  * @property {() => any} newTab
@@ -23,6 +25,39 @@ const nick = /** @type {Nick} */ (new Nick({
 const rawdata = fs.readFileSync('manifest.json');
 const manifest = JSON.parse(rawdata.toString());
 const detailedManifest = JSON.parse(rawdata.toString());
+
+async function augmentWithDetails(obj) {
+  const slug = obj.slug
+
+  const tab = await nick.newTab()
+  await tab.open(listingPageURL(slug))
+
+  await tab.untilVisible("table")
+
+  const fileId = await tab.evaluate(scrapers.scrapeFileId)
+  const filename = await tab.evaluate(scrapers.scrapeFilename)
+  const fileURL = await tab.evaluate(scrapers.scrapeFileURL)
+
+  await tab.open(fileURL)
+
+  const md5 = await tab.evaluate(scrapers.scrapeMD5)
+
+  const data = {
+    fileId,
+    filename,
+    md5
+  }
+
+  console.log('augmenting with', data)
+
+  Object.keys(data).forEach((key) => {
+    obj[key] = data[key]
+  })
+
+  function listingPageURL(slug) {
+    return `https://www.curseforge.com/minecraft/mc-mods/${slug}/files/all?filter-game-version=2020709689:6756&sort=releasetype`
+  }
+}
 
 const stack = Object.keys(manifest).map((key) => ({ key, path: key, body: manifest[key] }))
 let i = 0
@@ -84,80 +119,6 @@ Promise.all(work)
     console.log(`Something went wrong: ${err}`)
     nick.exit(1)
   })
-
-async function augmentWithDetails(obj) {
-  const slug = obj.slug
-
-  const tab = await nick.newTab()
-  await tab.open(pageUrl(slug))
-
-  await tab.untilVisible("article") // Make sure we have loaded the page
-
-  return tab.evaluate((arg, callback) => {
-    // @TODO extract class
-    // const scraper = new Scraper()
-    // callback(null, scraper.scrape())
-    const url = _scrapeDownloadURL(document)
-    const filename = _scrapeFilename(document)
-    const md5 = _scrapeMD5(document)
-
-    const data = {
-      fileId: extractFileId(url),
-      filename,
-      md5,
-    }
-
-    callback(null, data)
-
-    const error = (target) => `Curseforge has updated their HTML, the ${target} could not be scraped`
-
-    function _scrapeMD5(document) {
-      try {
-        const container = document.querySelector('.flex.flex-col.justify-between.border-b.border-gray--100.mb-2.pb-4')
-        const details = container.innerText
-
-        return details.split('\n').pop().split(' ').pop()
-      } catch {
-        return error('md5')
-      }
-    }
-
-    function _scrapeDownloadURL(document) {
-      try {
-        return document.querySelector('article a.button.button--hollow').href
-      } catch {
-        return error('url')
-      }
-    }
-
-    function _scrapeFilename(document) {
-      try {
-        return document.querySelector('article h3').innerText
-      } catch {
-        return error('filename')
-      }
-    }
-
-    function extractFileId(url) {
-      try {
-        return url.split('/').pop()
-      } catch {
-        return url
-      }
-    }
-  })
-    .then((data) => {
-      console.log('augmenting with', data)
-
-      Object.keys(data).forEach((key) => {
-        obj[key] = data[key]
-      })
-    })
-
-  function pageUrl(slug) {
-    return `https://www.curseforge.com/minecraft/mc-mods/${slug}/files`
-  }
-}
 
 function downloadTheFiles(files) {
   // create mods directory

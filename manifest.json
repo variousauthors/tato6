@@ -12,14 +12,17 @@
       "natural-magic": [
         {
           "slug": "botania",
-          "fileId": "2887822",
-          "filename": "Botania r1.11-378.jar",
-          "md5": "42242a137034922b330c757d994f03b9"
+          "fileId": "2846950",
+          "filename": "Botania r1.10-363.jar",
+          "md5": "5ba76d3db9345fa9e398523bddda59f3"
         }
       ],
       "agriculture": [
         {
-          "slug": "growthcraft-community-edition"
+          "slug": "growthcraft-community-edition",
+          "fileId": "2892715",
+          "filename": "Growthcraft 4.1.3.100",
+          "md5": "f79914f40e18d6387e70494d25072e5d"
         }
       ]
     }

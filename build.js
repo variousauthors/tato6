@@ -28,31 +28,42 @@ const detailedManifest = JSON.parse(rawdata.toString());
 
 async function augmentWithDetails(obj) {
   const slug = obj.slug
-
-  const tab = await nick.newTab()
-  await tab.open(listingPageURL(slug))
-
-  await tab.untilVisible("table")
-
-  const fileId = await tab.evaluate(scrapers.scrapeFileId)
-  const filename = await tab.evaluate(scrapers.scrapeFilename)
-  const fileURL = await tab.evaluate(scrapers.scrapeFileURL)
-
-  await tab.open(fileURL)
-
-  const md5 = await tab.evaluate(scrapers.scrapeMD5)
-
-  const data = {
-    fileId,
-    filename,
-    md5
-  }
-
-  console.log('augmenting with', data)
+  const tab = await openTab(slug)
+  const data = await scrapeModFile(tab)
 
   Object.keys(data).forEach((key) => {
     obj[key] = data[key]
   })
+
+  async function openTab (slug) {
+    const tab = await nick.newTab()
+    const url = listingPageURL(slug)
+    const [httpCode] = await tab.open(url)
+
+    if (httpCode === 404) {
+      throw new MalformedModFileURL(url, slug)
+    }
+
+    await tab.untilVisible("table")
+
+    return tab
+  }
+
+  async function scrapeModFile(tab) {
+    const fileId = await tab.evaluate(scrapers.scrapeFileId)
+    const filename = await tab.evaluate(scrapers.scrapeFilename)
+    const fileURL = await tab.evaluate(scrapers.scrapeFileURL)
+
+    await tab.open(fileURL)
+
+    const md5 = await tab.evaluate(scrapers.scrapeMD5)
+
+    return {
+      fileId,
+      filename,
+      md5
+    }
+  }
 
   function listingPageURL(slug) {
     return `https://www.curseforge.com/minecraft/mc-mods/${slug}/files/all?filter-game-version=2020709689:6756&sort=releasetype`
@@ -63,8 +74,9 @@ const stack = Object.keys(manifest).map((key) => ({ key, path: key, body: manife
 let i = 0
 
 const work = []
+const errors = []
 
-while (stack.length > 0 && i < 10) {
+while (stack.length > 0 && i < 100) {
   const current = stack.pop()
 
   function slugIsMissingData (slug) {
@@ -83,8 +95,6 @@ while (stack.length > 0 && i < 10) {
 
   if (isModEntry(current)) {
     if (slugIsMissingData(current)) {
-      console.log('encountered a slug with missing details', JSON.stringify(current, null, 2))
-
       const keys = current.path.split('/')
       const siblings = keys.reduce((obj, key) => {
         return obj[key]
@@ -92,7 +102,10 @@ while (stack.length > 0 && i < 10) {
 
       const modEntry = siblings.find((sibling) => sibling.slug === current.slug)
 
-      work.push(augmentWithDetails(modEntry))
+      work.push(
+        augmentWithDetails(modEntry)
+          .catch((error) => errors.push(error.message))
+      )
     }
   } else {
     // we need to go deeper
@@ -112,7 +125,13 @@ Promise.all(work)
     const data = JSON.stringify(detailedManifest, null, 2)
     fs.writeFileSync('manifest.json', data)
 
-    console.log('Done!')
+    if (errors.length > 0) {
+      console.log('Finished with errors!')
+      console.log(errors.join())
+    } else {
+      console.log('Done!')
+    }
+
     nick.exit(0)
   })
   .catch((err) => {
@@ -143,4 +162,19 @@ function isNil (obj) {
 
 function isDefined (obj) {
   return !isNil(obj)
+}
+
+class MalformedModFileURL extends Error {
+
+  constructor (url, slug) {
+    super(`
+Attempting to visit 
+
+  ${url} 
+
+resulted in a 404. Is the slug correct? (${slug})
+    `)
+
+    this.name = 'MalformedModFileURL'
+  }
 }

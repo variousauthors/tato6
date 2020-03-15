@@ -2,18 +2,26 @@
   "blogs": {
     "core": [
       {
-        "slug": "jei"
+        "slug": "jei",
+        "fileId": "2803400",
+        "filename": "jei_1.12.2-4.15.0.291.jar",
+        "md5": "cfdbfecefb1bdc5a3fbbcecbfecb0545"
       }
     ],
     "near-overworld": {
-      "magic": [
+      "natural-magic": [
         {
-          "slug": "botania"
+          "slug": "botania",
+          "fileId": "2887822",
+          "filename": "Botania r1.11-378.jar",
+          "md5": "42242a137034922b330c757d994f03b9"
+        }
+      ],
+      "agriculture": [
+        {
+          "slug": "growthcraft-community-edition"
         }
       ]
     }
-  },
-  "dogs": {
-
   }
 }

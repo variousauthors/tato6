@@ -1,4 +1,4 @@
-
+ - [x] add handling for an array of mod slugs, rather than objects
  - [x] add handling for malformed slugs
  - [x] fetch the latest release for 1.12.2
       - https://www.curseforge.com/minecraft/mc-mods/jei/files/all?filter-game-version=2020709689:6756&sort=releasetype

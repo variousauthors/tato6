@@ -6,6 +6,8 @@ const userAgent = require('user-agents');
 
 const scrapers = require('./scrapers')
 
+process.env.CHROME_PATH = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+
 /**
  * @typedef {Object} Nick
  * @property {() => any} newTab
@@ -71,52 +73,84 @@ async function augmentWithDetails(obj) {
 }
 
 const stack = Object.keys(manifest).map((key) => ({ key, path: key, body: manifest[key] }))
-let i = 0
 
 const work = []
 const errors = []
 
-while (stack.length > 0 && i < 100) {
+while (stack.length > 0) {
   const current = stack.pop()
-
-  function slugIsMissingData (slug) {
-    return isNil(slug.fileId) || isNil(slug.filename || isNil(slug.md5))
-  }
-
-  /**
-   * @typedef {Object} ModEntry
-   * @property {string} slug
-   */
-
-  /** @return {obj is ModEntry} */
-  function isModEntry (obj) {
-    return isDefined(obj.slug)
-  }
 
   if (isModEntry(current)) {
     if (slugIsMissingData(current)) {
-      const keys = current.path.split('/')
-      const siblings = keys.reduce((obj, key) => {
-        return obj[key]
-      }, detailedManifest)
+      const manifestReference = getManifestReference(detailedManifest, current)
 
-      const modEntry = siblings.find((sibling) => sibling.slug === current.slug)
-
-      work.push(
-        augmentWithDetails(modEntry)
-          .catch((error) => errors.push(error.message))
+      work.push(augmentWithDetails(manifestReference)
+        .catch((error) => {
+          errors.push(error)
+        })
       )
     }
   } else {
     // we need to go deeper
     const next = Array.isArray(current.body)
-      ? current.body.map((obj) => ({ path: `${current.path}`, ...obj })) 
+      ? current.body.map((obj) => toModEntry(obj, current.path)) 
       : Object.keys(current.body).map((key) => ({ key, path: `${current.path}/${key}`, body: current.body[key] }))
 
     stack.push(...next)
   }
+}
 
-  i++
+/** getManifestReference returns a reference to the modEntry
+ * in the manifest. Changes made to the object returned by this
+ * function will be reflected in the manifest */
+function getManifestReference (detailedManifest, current) {
+  const siblings = getSiblingsOfModEntry(detailedManifest, current)
+
+  const index = siblings.indexOf(current.slug)
+
+  if (index > -1) {
+    siblings.splice(index, 1, {
+      slug: current.slug
+    })
+  }
+
+  return siblings.find((sibling) => sibling.slug === current.slug)
+
+  function getSiblingsOfModEntry(detailedManifest, current) {
+    const keys = current.path.split('/')
+
+    return keys.reduce((obj, key) => {
+      return obj[key]
+    }, detailedManifest)
+  }
+}
+
+function toModEntry (obj, path) {
+  if (typeof obj === 'string') {
+    return {
+      path,
+      slug: obj,
+    }
+  }
+
+  return {
+    path,
+    ...obj
+  }
+}
+
+function slugIsMissingData(slug) {
+  return isNil(slug.fileId) || isNil(slug.filename || isNil(slug.md5))
+}
+
+/**
+ * @typedef {Object} ModEntry
+ * @property {string} slug
+ */
+
+/** @return {obj is ModEntry} */
+function isModEntry(obj) {
+  return isDefined(obj.slug)
 }
 
 Promise.all(work)
@@ -127,7 +161,7 @@ Promise.all(work)
 
     if (errors.length > 0) {
       console.log('Finished with errors!')
-      console.log(errors.join())
+      console.log(errors.join('\n'))
     } else {
       console.log('Done!')
     }

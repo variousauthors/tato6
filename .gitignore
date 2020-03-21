@@ -1,2 +1,5 @@
-mods/
+modpack/mods
+dist/
+static/
 node_modules/
+dist.zip

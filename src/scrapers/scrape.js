@@ -7,6 +7,8 @@ const scrapers = {
   scrapeMD5: require('./scrapeMD5'),
 }
 
+process.env.CHROME_PATH = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+
 module.exports = class Scraper {
   constructor () {
     this.nick = new Nick({
@@ -38,6 +40,8 @@ module.exports = class Scraper {
     await tab.open(fileURL)
 
     const md5 = await tab.evaluate(scrapers.scrapeMD5)
+
+    tab.close()
 
     return {
       fileId,

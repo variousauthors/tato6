@@ -1,75 +1,24 @@
 // @ts-check
-const ModFile = require("mc-curseforge-api/objects/Files");
 const fs = require('fs');
-const Nick = require("nickjs")
-const userAgent = require('user-agents');
 
-const scrapers = require('./scrapers')
+const ModFile = require("mc-curseforge-api/objects/Files");
+const Scraper = require('./scrapers')
+
+const manifestPath = `${__dirname}/manifest.json`
 
 process.env.CHROME_PATH = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-/**
- * @typedef {Object} Nick
- * @property {() => any} newTab
- * @property {(exitCode: number) => any} exit
- */
-
-const nick = /** @type {Nick} */ (new Nick({
-  loadImages: false,
-  printAborts: false,
-  printResourceErrors: false,
-  printPageErrors: false,
-  resourceTimeout: 10000,
-  userAgent: userAgent.toString(),
-  whitelist: [/.*files/]
-}))
-
-const rawdata = fs.readFileSync('manifest.json');
+const rawdata = fs.readFileSync(manifestPath);
 const manifest = JSON.parse(rawdata.toString());
 const detailedManifest = JSON.parse(rawdata.toString());
+const scraper = new Scraper()
 
 async function augmentWithDetails(obj) {
-  const slug = obj.slug
-  const tab = await openTab(slug)
-  const data = await scrapeModFile(tab)
+  const data = await scraper.scrape(obj.slug)
 
   Object.keys(data).forEach((key) => {
     obj[key] = data[key]
   })
-
-  async function openTab (slug) {
-    const tab = await nick.newTab()
-    const url = listingPageURL(slug)
-    const [httpCode] = await tab.open(url)
-
-    if (httpCode === 404) {
-      throw new MalformedModFileURL(url, slug)
-    }
-
-    await tab.untilVisible("table")
-
-    return tab
-  }
-
-  async function scrapeModFile(tab) {
-    const fileId = await tab.evaluate(scrapers.scrapeFileId)
-    const filename = await tab.evaluate(scrapers.scrapeFilename)
-    const fileURL = await tab.evaluate(scrapers.scrapeFileURL)
-
-    await tab.open(fileURL)
-
-    const md5 = await tab.evaluate(scrapers.scrapeMD5)
-
-    return {
-      fileId,
-      filename,
-      md5
-    }
-  }
-
-  function listingPageURL(slug) {
-    return `https://www.curseforge.com/minecraft/mc-mods/${slug}/files/all?filter-game-version=2020709689:6756&sort=releasetype`
-  }
 }
 
 const stack = Object.keys(manifest).map((key) => ({ key, path: key, body: manifest[key] }))
@@ -157,7 +106,7 @@ Promise.all(work)
   .then(() => {
     // write the detailed manifest to the filesystem
     const data = JSON.stringify(detailedManifest, null, 2)
-    fs.writeFileSync('manifest.json', data)
+    fs.writeFileSync(manifestPath, data)
 
     if (errors.length > 0) {
       console.log('Finished with errors!')
@@ -166,11 +115,11 @@ Promise.all(work)
       console.log('Done!')
     }
 
-    nick.exit(0)
+    scraper.cleanup(0)
   })
   .catch((err) => {
     console.log(`Something went wrong: ${err}`)
-    nick.exit(1)
+    scraper.cleanup(1)
   })
 
 function downloadTheFiles(files) {
@@ -196,19 +145,4 @@ function isNil (obj) {
 
 function isDefined (obj) {
   return !isNil(obj)
-}
-
-class MalformedModFileURL extends Error {
-
-  constructor (url, slug) {
-    super(`
-Attempting to visit 
-
-  ${url} 
-
-resulted in a 404. Is the slug correct? (${slug})
-    `)
-
-    this.name = 'MalformedModFileURL'
-  }
 }

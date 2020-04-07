@@ -8,6 +8,21 @@
         "md5": "cfdbfecefb1bdc5a3fbbcecbfecb0545"
       },
       {
+        "slug": "unidict"
+      },
+      {
+        "slug": "instantunify"
+      },
+      {
+        "slug": "wanionlib"
+      },
+      {
+        "slug": "tinkers-jei"
+      },
+      {
+        "slug": "appleskin"
+      },
+      {
         "slug": "autoreglib",
         "fileId": "2746011",
         "filename": "AutoRegLib-1.3-32.jar",
@@ -199,6 +214,12 @@
           "md5": "4710702cd0ad48461b15c169589d3dbc"
         },
         {
+          "slug": "mysticalmechanics"
+        },
+        {
+          "slug": "mystical-gears"
+        },
+        {
           "slug": "mantle",
           "fileId": "2713386",
           "filename": "Mantle-1.12-1.3.3.55.jar",
@@ -301,6 +322,9 @@
           "md5": "49c4e8fad632a44c4f435f446a8942c7"
         },
         {
+          "slug": "blockcraftery"
+        },
+        {
           "slug": "bibliocraft",
           "fileId": "2574880",
           "filename": "BiblioCraft v2.4.5",
@@ -361,6 +385,12 @@
           "fileId": "2859589",
           "filename": "Waystones_1.12.2-4.1.0.jar",
           "md5": "5159122949ffb79b80a341135673e8f8"
+        },
+        {
+          "slug": "sentek-runic-teleporters",
+          "fileId": "2492522",
+          "filename": "Sentek 1.8 for MC1.12.2",
+          "md5": "fa0596b0cbde526a2f36cbf11ff1f853"
         }
       ],
       "tech": [
@@ -377,10 +407,30 @@
           "md5": "0f61017dc9412ba4aad8a64f7bca16bb"
         },
         {
+          "slug": "thermal-expansion"
+        },
+        {
+          "slug": "codechicken-lib-1-8"
+        },
+        {
           "slug": "redstone-flux",
           "fileId": "2623090",
           "filename": "RedstoneFlux-1.12-2.1.0.6-universal.jar",
           "md5": "f00530b437c41a189dbf8a85d0ac40b6"
+        }
+      ],
+      "storage": [
+        {
+          "slug": "arcane-archives",
+          "fileId": "2914702",
+          "filename": "Waystones_1.12.2-4.1.0.jar",
+          "md5": "906a22a24b2729eda7784a87ee4f1725"
+        },
+        {
+          "slug": "simple-storage-network"
+        },
+        {
+          "slug": "improvedbackpacks"
         }
       ]
     }

@@ -31,7 +31,7 @@
 				"cluster-size": 33
 			},
 			"cluster-count": 16,
-			"min-height": 0,
+			"min-height": 80,
 			"max-height": 256,
 			"retrogen": false,
 			"biome": "all",

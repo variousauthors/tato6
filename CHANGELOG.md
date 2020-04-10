@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - Arcane Archives and Simple Storage Network to help organize our rediculous modded inventories
  - Improved Backpacks as an elegant diagetic personal storage device
  - A CHANGELOG based on keepchangelog.com to help me keep track of things
+ - Thermal Dynamics because it got pipes
 
 ### Changed
 
@@ -29,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - Alluvial tin ore weight from 160 to 80 because there was just so. much. tin.
  - Alluvial gold ore weight from 1 to 2 to make it a little less rare
  - Embers ruins spawn weight from 0 to 5 because it was accidentally set to 0 ;)
+ - Roots mortar can now be used to pulvarize ores, coal, etc... (but it doesn't double the ores)
 
 ## Removed
 

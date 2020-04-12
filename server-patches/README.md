@@ -20,15 +20,13 @@ RELEASE CHECKLIST
 -----------------
 
 1. copy any mods you added from the current instance to `unreleased/mods` and `modpack/mods`
-2. rename unreleased to [release-version]
-3. 
-4. stop the server
-5. upload the files from server-patch/[release-version]
-6. restart the server
-7. export the "unreleased" instance from multimc as a zip file named overworld-[release-version].zip
-8. rename the "unreleased" instance to "[release-version]"
-8. import overworld-[release-version].zip and name it "unreleased"
+2. rename unreleased to [release-version] and update the readme
+3. export the "unreleased" instance from multimc as a zip file named overworld-[release-version].zip
+4. rename the "unreleased" instance to "[release-version]"
+5. import overworld-[release-version].zip and name it "unreleased"
+6. upload the new release to google drive
+7. update the instructions to point to the latest released version
 
- 
-
- - create a new zip named overworld-[release-version].zip and put it in /artifacts
+8. stop the server
+9. upload the files from server-patch/[release-version]
+10. restart the server

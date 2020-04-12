@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## [0.1.1] - 2020-04-12
+
 ## Added
 
  - Fork of Nature's Compass, you can use the compass to track down rare biomes but it isn't easy!
@@ -63,5 +65,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
  - Initial set of mods and configs, mainly the core mods, near overworld, and natural magic
 
+[0.1.1]: https://github.com/variousauthors/tato6/compare/bfa9e10...5f9e492
 [0.1.0]: https://github.com/variousauthors/tato6/compare/512f69a...ae3ba
 [0.0.3]: https://github.com/variousauthors/tato6/commit/79e36bc1ca9d608caa418b146af19011386f780e

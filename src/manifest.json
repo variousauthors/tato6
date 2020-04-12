@@ -175,12 +175,6 @@
         "md5": "de73cdc5de95a2685e50d90f01c03a50"
       },
       {
-        "slug": "natures-compass",
-        "fileId": "2893527",
-        "filename": "NaturesCompass-1.12.2-1.8.5.jar",
-        "md5": "3dbb990c72a185c9b9aeca7f3094eb21"
-      },
-      {
         "slug": "world-stripper",
         "fileId": "2635454",
         "filename": "World-Stripper-1.6.0-1.12.2.jar",
@@ -367,6 +361,11 @@
           "fileId": "2823030",
           "filename": "antiqueatlas-1.12.2-4.6.3.jar",
           "md5": "2cafce41d88d5067bf9a9da6a8fc79a8"
+        },
+        {
+          "slug": "natures-compass",
+          "description": "This is a fork with specific changes maintained by me.",
+          "filename": "NaturesCompass-1.12.2-1.8.0.jar",
         },
         {
           "slug": "additional-structures",

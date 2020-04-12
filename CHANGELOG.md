@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2020-04-09
+
 ### Added
 
  - Alluvial aluminium ore with a weight of 4 just for fun because I love gravel ore
@@ -46,4 +48,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
  - Initial set of mods and configs, mainly the core mods, near overworld, and natural magic
 
+[0.1.0]: https://github.com/variousauthors/tato6/compare/512f69a...ae3ba
 [0.0.3]: https://github.com/variousauthors/tato6/commit/79e36bc1ca9d608caa418b146af19011386f780e

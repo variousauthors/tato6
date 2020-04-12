@@ -3,3 +3,5 @@ dist/
 static/
 node_modules/
 dist.zip
+artifacts/
+server-patches/*/mods

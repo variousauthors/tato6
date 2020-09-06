@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## Added
+ - astral sorcery to add mystery and power to the night
+ - ancient temples spawn only on the highest alps peaks
+ - buried temples can appear in snowy, desert, or mountain terrain
+ - little shrines spawn only in magical biomes
+ - ruined shrines do not spawn at all
+ - galacticraft for exploring the vast darkness of space (he lurks)
+ - disable villages spawning on the moon are you kidding me?
+
+## Changed
+ - Waystones config updated to prevent breaking generated waystones
+ - Waystones set max level cost to 30
+ - set wickerman spawn to 0 because I found a gross wickerman (it spawned real bad)
+
 ## [0.1.1] - 2020-04-12
 
 ## Added

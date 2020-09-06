@@ -10,7 +10,7 @@ As usual the mods directory is not versioned, and instead a snapshot of the mani
 ---
 
 As you make changes, add the changes to the server-patch folder for the unreleased version:
- - if you add a mod, add it to unrelease/mods/ and copy the current ../manifest.json as well
+ - if you add a mod, add it to unreleased/mods/ and copy the current ../manifest.json as well
  - if you change or add a config file, add it to unreleased/config/
  - if you add or change any scripts, add them to unreleased/scripts
 

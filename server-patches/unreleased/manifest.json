@@ -435,6 +435,18 @@
           "slug": "improvedbackpacks"
         }
       ]
-    }
+    },
+    "far-overworld": [
+      {
+        "slug": "astral-sorcery",
+        "fileId": "3044416",
+        "filename": "AstralSorcery-1.12.2-1.10.27.jar",
+        "md5": "c2db411b6e678c7e24035cd5c0525264"
+      },
+      {
+        "slug": "galacticraft",
+        "description": "galacticraft is not listed on curseforge."
+      }
+    ]
   }
 }

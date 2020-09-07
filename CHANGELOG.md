@@ -14,12 +14,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - little shrines spawn only in magical biomes
  - ruined shrines do not spawn at all
  - galacticraft for exploring the vast darkness of space (he lurks)
- - disable villages spawning on the moon are you kidding me?
+ - disable silicon and aluminum ore (cofh handles aluminum)
+ - add EnderIO and AE2 for silicon to support galacticraft
+ - hit the entity id limit, so we added JEID
+ - loading was getting slow so we added Surge
+ - change ae2 meteorites to spawn below 50
+ - add Aetherworks for lovely moonlight strangeness
+ - restrict the ores to spawn above 150 but increase their frequency
 
 ## Changed
  - Waystones config updated to prevent breaking generated waystones
  - Waystones set max level cost to 30
  - set wickerman spawn to 0 because I found a gross wickerman (it spawned real bad)
+ - reduced the spawning frequency of embers small ruins from 5 to 3
 
 ## [0.1.1] - 2020-04-12
 

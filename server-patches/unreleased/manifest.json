@@ -159,6 +159,18 @@
         "fileId": "2639533",
         "filename": "VanillaFix-1.0.10-99.jar",
         "md5": "eb05714c798a94f52ddd8617857052ab"
+      },
+      {
+        "slug": "endercore"
+      },
+      {
+        "slug": "jeid",
+        "fileId": "2626479",
+        "filename": "JustEnoughIDs-1.0.2-26.jar",
+        "md5": "d59a5afae61495c66b47958b3fc2790c"
+      },
+      {
+        "slug": "surge"
       }
     ],
     "development": [
@@ -419,6 +431,13 @@
           "fileId": "2623090",
           "filename": "RedstoneFlux-1.12-2.1.0.6-universal.jar",
           "md5": "f00530b437c41a189dbf8a85d0ac40b6"
+        },
+        {
+          "slug": "ender-io"
+        },
+        {
+          "slug": "applied-energistics-2",
+          "description": "AE2 is in the far-overworld because the meteorites are hard to find."
         }
       ],
       "storage": [
@@ -445,7 +464,11 @@
       },
       {
         "slug": "galacticraft",
-        "description": "galacticraft is not listed on curseforge."
+        "description": "galacticraft is not listed on curseforge. It is in the far-overworld because it requires aluminum."
+      },
+      {
+        "slug": "aetherworks",
+        "description": "Aetherworks is in the far overworld because it's ore only spawns above y = 150"
       }
     ]
   }

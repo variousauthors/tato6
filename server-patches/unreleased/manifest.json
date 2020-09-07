@@ -214,24 +214,6 @@
           "md5": "25ea0b766b3557991b6f1f12f3db9fe3"
         },
         {
-          "slug": "embers-rekindled",
-          "fileId": "2697221",
-          "filename": "EmbersRekindled-1.13-hotfix2.jar",
-          "md5": "4710702cd0ad48461b15c169589d3dbc"
-        },
-        {
-          "slug": "mysticalmechanics"
-        },
-        {
-          "slug": "mystical-gears"
-        },
-        {
-          "slug": "mantle",
-          "fileId": "2713386",
-          "filename": "Mantle-1.12-1.3.3.55.jar",
-          "md5": "1026f5f8d3c4997831decd9023ca65a6"
-        },
-        {
           "slug": "mysticallib",
           "fileId": "2865499",
           "filename": "mysticallib-1.12.2-1.6.0.jar",
@@ -434,10 +416,6 @@
         },
         {
           "slug": "ender-io"
-        },
-        {
-          "slug": "applied-energistics-2",
-          "description": "AE2 is in the far-overworld because the meteorites are hard to find."
         }
       ],
       "storage": [
@@ -457,7 +435,35 @@
     },
     "far-overworld": [
       {
+        "slug": "applied-energistics-2",
+        "description": "AE2 is in the far-overworld because the meteorites are hard to find."
+      },
+      {
+        "slug": "embers-rekindled",
+        "description": "Far overworld because nickel is mostly found in mountains.",
+        "fileId": "2697221",
+        "filename": "EmbersRekindled-1.13-hotfix2.jar",
+        "md5": "4710702cd0ad48461b15c169589d3dbc"
+      },
+      {
+        "slug": "aetherworks",
+        "description": "Aetherworks is in the far overworld because it's ore only spawns above y = 150"
+      },
+      {
+        "slug": "mysticalmechanics"
+      },
+      {
+        "slug": "mystical-gears"
+      },
+      {
+        "slug": "mantle",
+        "fileId": "2713386",
+        "filename": "Mantle-1.12-1.3.3.55.jar",
+        "md5": "1026f5f8d3c4997831decd9023ca65a6"
+      },
+      {
         "slug": "astral-sorcery",
+        "description": "Far overworld because the temples and shrines are only found in mountains.",
         "fileId": "3044416",
         "filename": "AstralSorcery-1.12.2-1.10.27.jar",
         "md5": "c2db411b6e678c7e24035cd5c0525264"
@@ -467,8 +473,14 @@
         "description": "galacticraft is not listed on curseforge. It is in the far-overworld because it requires aluminum."
       },
       {
-        "slug": "aetherworks",
-        "description": "Aetherworks is in the far overworld because it's ore only spawns above y = 150"
+        "slug": "mekanism",
+        "description": "Kind of far overworld because osmium generates in igneous rocks... could almost be near overworld."
+      },
+      {
+        "slug": "mekanism-generators"
+      },
+      {
+        "slug": "mekanism-tools"
       }
     ]
   }

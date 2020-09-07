@@ -20,13 +20,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - loading was getting slow so we added Surge
  - change ae2 meteorites to spawn below 50
  - add Aetherworks for lovely moonlight strangeness
- - restrict the ores to spawn above 150 but increase their frequency
+ - restrict aetherium ore to spawn above 150 but increase their frequency
+ - Mekanism for a different take on tech
+ - Osmium spawns in the 20 - 64 range similar to iron but at lower frequencies
 
 ## Changed
  - Waystones config updated to prevent breaking generated waystones
  - Waystones set max level cost to 30
  - set wickerman spawn to 0 because I found a gross wickerman (it spawned real bad)
  - reduced the spawning frequency of embers small ruins from 5 to 3
+ - increased the occurrence of meteoric iron geodes because they are fun
+ - changed their surface to sky-stone
 
 ## [0.1.1] - 2020-04-12
 

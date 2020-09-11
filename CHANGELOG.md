@@ -13,16 +13,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - buried temples can appear in snowy, desert, or mountain terrain
  - little shrines spawn only in magical biomes
  - ruined shrines do not spawn at all
- - galacticraft for exploring the vast darkness of space (he lurks)
- - disable silicon and aluminum ore (cofh handles aluminum)
- - add EnderIO and AE2 for silicon to support galacticraft
+ - add EnderIO and AE2 
  - hit the entity id limit, so we added JEID
  - loading was getting slow so we added Surge
- - change ae2 meteorites to spawn below 50
+ - change ae2 meteorites to spawn below 40, and made them further apart
  - add Aetherworks for lovely moonlight strangeness
  - restrict aetherium ore to spawn above 150 but increase their frequency
  - Mekanism for a different take on tech
  - Osmium spawns in the 20 - 64 range similar to iron but at lower frequencies
+ - Nuclearcraft for those big dangerous reactors (disabled wastelands)
+ - Configured COFH to spawn nuclearcraft ores in the bases of mountains
 
 ## Changed
  - Waystones config updated to prevent breaking generated waystones
@@ -31,6 +31,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - reduced the spawning frequency of embers small ruins from 5 to 3
  - increased the occurrence of meteoric iron geodes because they are fun
  - changed their surface to sky-stone
+
+## Removed
+ - Additional Structures is not sufficiently configurable (or all that useful, really).
+   Part of this change is also that we've decided that structures in the near-overworld
+   should predominantly be build by players.
 
 ## [0.1.1] - 2020-04-12
 

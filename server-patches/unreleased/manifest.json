@@ -362,12 +362,6 @@
           "filename": "NaturesCompass-1.12.2-1.8.0.jar"
         },
         {
-          "slug": "additional-structures",
-          "fileId": "2810589",
-          "filename": "Additional Structures v.2.3.1",
-          "md5": "00a9a200be155591bc4974dbbf34c1ac"
-        },
-        {
           "slug": "roguelike-dungeons",
           "fileId": "2492586",
           "filename": "RoguelikeDungeons-1.12.2-1.8.0.jar",
@@ -435,6 +429,9 @@
     },
     "far-overworld": [
       {
+        "slug": "nuclearcraft"
+      },
+      {
         "slug": "applied-energistics-2",
         "description": "AE2 is in the far-overworld because the meteorites are hard to find."
       },
@@ -467,10 +464,6 @@
         "fileId": "3044416",
         "filename": "AstralSorcery-1.12.2-1.10.27.jar",
         "md5": "c2db411b6e678c7e24035cd5c0525264"
-      },
-      {
-        "slug": "galacticraft",
-        "description": "galacticraft is not listed on curseforge. It is in the far-overworld because it requires aluminum."
       },
       {
         "slug": "mekanism",

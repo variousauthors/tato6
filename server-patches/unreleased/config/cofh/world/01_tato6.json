@@ -38,7 +38,7 @@
     "osmium": {
       "distribution": "uniform",
       "details": {
-        "description": "This is mekanism's osmium. I'm putting it inside igneous rock because that's kiiiind of how osmium works and because it gives some people a reason to mine igneous rock.",
+        "description": "This is mekanism's osmium. Need to pick some environment where this will spawn. Maybe cold biomes?",
         "frequency": ""
       },
 			"generator": {
@@ -333,7 +333,8 @@
 			"max-height": 30,
 			"retrogen": false,
 			"biome": {
-				"restriction": "whitelist",
+        "restriction": "whitelist",
+        "description": "Biomes that are not just high but actually rough, like rocky not flat. Dwarven, if you will.",
 				"value": [
 					{
 						"type": "id",
@@ -347,7 +348,11 @@
               "biomesoplenty:alps",
               "biomesoplenty:alps_foothills",
               "biomesoplenty:mountain",
-              "biomesoplenty:mountain_foothills"
+              "biomesoplenty:mountain_foothills",
+              "biomesoplenty:overgrown_cliffs",
+              "biomesoplenty:volcanic_island",
+              "mutated_extreme_hills",
+              "mutated_taiga"
 						]
 					}
 				]
@@ -477,16 +482,6 @@
 					1
 				]
 			}
-    },
-    "chalk_biome": {
-      "enabled": false,
-      "description": "Massive chalk deposite, maybe in mountains only?",
-			"min-height": 50,
-			"max-height": 130
-    },
-    "sedimentary_light_blue_slate": {
-      "enabled": false,
-      "description": "Spawns above 50. Quark slate. Currently disabled."
     },
     "bauxite": {
       "enabled": true,

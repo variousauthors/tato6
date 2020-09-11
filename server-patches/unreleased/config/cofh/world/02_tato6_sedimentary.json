@@ -236,5 +236,11 @@
 				]
 			}
     }
+  },
+  "chalk_biome": {
+    "enabled": false,
+    "description": "Massive chalk deposite, maybe in mountains only?",
+    "min-height": 50,
+    "max-height": 130
   }
 }

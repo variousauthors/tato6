@@ -14,7 +14,7 @@ As you make changes, add the changes to the server-patch folder for the unreleas
  - if you change or add a config file, add it to unreleased/config/
  - if you add or change any scripts, add them to unreleased/scripts
 
-When you remove files or mods from the release, this is a major version bump and care must be taken to ensure that the server is patched correctly.
+When you remove files or mods from the release, this may be a major version bump and care must be taken to ensure that the server is patched correctly.
 
 RELEASE CHECKLIST
 -----------------

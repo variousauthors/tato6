@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## Added
+ - Thaumcraft and AuraControl for that sometimes thaumcraft feel
+ - Ore Stone Variants joins the fight!
+ - certus quartz occurs regularly in the igneous rocks
+ - add certus quartz and amber sand that spawns in rivers
+
+## Changed
+ - blacklisted many biomes for bewitchment trees
+ - reduced the frequency of bewitchment trees
+ - removed bewitchment structures
+ - continued to fiddle with embers small ruins
+ - removed roots huts
+ - waystones do not work interdimensionally, they cost 1 level / 500 blocks travelled
+
 ## [0.2.0] - 2020-09-11
 
 ## Added

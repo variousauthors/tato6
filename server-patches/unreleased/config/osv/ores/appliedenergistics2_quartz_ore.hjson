@@ -1,0 +1,27 @@
+{
+  name: appliedenergistics2_quartz_ore
+  mod: appliedenergistics2
+  block: {
+    location: appliedenergistics2:quartz_ore
+    level: 0
+    material: ROCK
+    soundType: STONE
+    lightLevel: 0
+    resistance: 15
+    hardness: 3
+    ticksRandomly: false
+    slipperiness: 0.6000000238418579
+    tool: pickaxe
+  }
+  texture: {
+    original: appliedenergistics2:blocks/quartz_ore
+  }
+  loot: [
+    {
+      item: appliedenergistics2:material
+      count: [ 1, 2 ]
+      xp: [ 2, 5 ]
+      chance: 1
+    }
+  ]
+}

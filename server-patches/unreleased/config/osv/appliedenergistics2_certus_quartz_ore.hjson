@@ -1,0 +1,31 @@
+name: appliedenergistics2_certus_quartz_ore
+mod: appliedenergistics2
+block: {
+  location: appliedenergistics2:quartz_ore
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: appliedenergistics2:material:0
+    count: [ 1, 1 ]
+    xp: [ 2, 5 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: appliedenergistics2:blocks/quartz_ore
+}
+recipe: {
+  result: appliedenergistics2:material:0
+  xp: 0.20000000298023224
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 9
+    count: 20
+  }
+]

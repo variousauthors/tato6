@@ -7,11 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## [0.3.0] - 2020-09-19
+
 ## Added
  - Thaumcraft and AuraControl for that sometimes thaumcraft feel
  - Ore Stone Variants joins the fight!
- - certus quartz occurs regularly in the igneous rocks
- - add certus quartz and amber sand that spawns in rivers
+ - certus quartz occurs regularly in the igneous rocks at certain depths
+ - certus quartz and amber sand that spawns in rivers
+ - QuarryPlus for a nice BC quarry
+ - sit, because we deserve a break
+ - carry on, for delivering gifts and moving house
+ - waddles, for the most adorable friends
+ - better railroads to make rail transport more viable in this wild modded world
+ - magical psi for spell crafting
+ - corpse, a simple gravestone mod
+ - controlled burn, to make lightning not cause fires
+ - nether chest, to complement the ender chest
+ - serene seasons, because how could you not
+ - project red, for a smoother more flexible redstone experience
+ - ender storage for convenience and pouches
+ - tweaked ender storage to be part of arcane archives
+ - disabled magical forests for now (too frequent), they will be re-enabled later
+ - tweaked a serene season to be 504 mc days, ie 1 earth week per serene season
+ - disable as many welcome messages as I could...
 
 ## Changed
  - blacklisted many biomes for bewitchment trees
@@ -20,6 +38,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - continued to fiddle with embers small ruins
  - removed roots huts
  - waystones do not work interdimensionally, they cost 1 level / 500 blocks travelled
+ - mortar recipes that were OP such as 1 rod -> 5 powder and the wool recipe
+ - nerfed mystical world silk thread quite a bit
+ - tweaked the nether to be a little more vanilla
+ - osmium spawns only in igneous rocks in to 0 - 50 range, and is a little less common than iron
+ - config chisels and bits so that it will allow bop dirt
+
+## Removed
+ - corrail tombstone, a wild and crazy gravestone mod
+ - roguelike dungeons was not configurable enough it may make a comeback later
 
 ## [0.2.0] - 2020-09-11
 

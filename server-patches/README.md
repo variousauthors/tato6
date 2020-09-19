@@ -20,7 +20,7 @@ RELEASE CHECKLIST
 -----------------
 
 1. copy any mods you added from the current instance to `unreleased/mods` and `modpack/mods`
-2. rename unreleased to [release-version] and update the readme
+2. rename unreleased to [release-version] and update the changelog
 3. export the "unreleased" instance from multimc as a zip file named overworld-[release-version].zip
 4. rename the "unreleased" instance to "[release-version]"
 5. import overworld-[release-version].zip and name it "unreleased"

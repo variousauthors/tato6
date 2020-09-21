@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## Changed
+ - corpse was crashing which we fixed by setting "owner only" to false in the config
+ - unidict config set to hide unified ores in JEI
+ - restore pinch of salt which got clobbered by unidict
+ - removed the roots book recipe, because it is OP
+ - re-added the roots spindle recipe which was removed in error
+ - removed silk from ore:string and added a 2x2 silk -> wool recipe so that 
+   you can definitely get string from silk 1 to 1 but it takes processing
+
 ## [0.3.0] - 2020-09-19
 
 ## Added

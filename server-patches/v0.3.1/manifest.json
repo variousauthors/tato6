@@ -1,0 +1,474 @@
+{
+  "blogs": {
+    "core": [
+      {
+        "slug": "jei",
+        "fileId": "2803400",
+        "filename": "jei_1.12.2-4.15.0.291.jar",
+        "md5": "cfdbfecefb1bdc5a3fbbcecbfecb0545"
+      },
+      {
+        "slug": "unidict"
+      },
+      {
+        "slug": "instantunify"
+      },
+      {
+        "slug": "wanionlib"
+      },
+      {
+        "slug": "tinkers-jei"
+      },
+      {
+        "slug": "appleskin"
+      },
+      {
+        "slug": "autoreglib",
+        "fileId": "2746011",
+        "filename": "AutoRegLib-1.3-32.jar",
+        "md5": "4e5a4b881c27b1e4502a9a16c00882ad"
+      },
+      {
+        "slug": "biomes-o-plenty",
+        "fileId": "2715506",
+        "filename": "BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar",
+        "md5": "61fcc4ffff205ca261e61d6772debc4d"
+      },
+      {
+        "slug": "block-drops-jei-addon",
+        "fileId": "2509046",
+        "filename": "blockdrops-1.12.2-1.4.0.jar",
+        "md5": "ab28c4a2f73286da49f224e7b3ffd696"
+      },
+      {
+        "slug": "chisel",
+        "fileId": "2813538",
+        "filename": "Chisel - MC1.12.2-1.0.1.44",
+        "md5": "fd1dd13667812ea520446e6220510d45"
+      },
+      {
+        "slug": "chisels-bits",
+        "fileId": "2720655",
+        "filename": "chiselsandbits-14.33.jar",
+        "md5": "e056e23559965f2ebabf47aad0fe51a3"
+      },
+      {
+        "slug": "cofh-world",
+        "fileId": "2715784",
+        "filename": "CoFHWorld-1.12.2-1.3.1.7-universal.jar",
+        "md5": "c196ade3fe4f33b4d38b4de43326ae2d"
+      },
+      {
+        "slug": "crafttweaker",
+        "fileId": "2838090",
+        "filename": "CraftTweaker2-1.12-4.1.20",
+        "md5": "521297c5e2459dd232a72dacffa45a0b"
+      },
+      {
+        "slug": "ctm",
+        "fileId": "2832564",
+        "filename": "CTM - MC1.12.2-1.0.1.30",
+        "md5": "e8299f25d1437b1e7644d379d45a8a42"
+      },
+      {
+        "slug": "ding",
+        "fileId": "2801170",
+        "filename": "Ding-1.12.2-1.0.2.jar",
+        "md5": "a53653c887baf2c82ceb55663e22a2a7"
+      },
+      {
+        "slug": "fast-leaf-decay",
+        "fileId": "2463272",
+        "filename": "FastLeafDecay-v14.jar",
+        "md5": "18096ffb7f58d94f8e5a7bf2ff160f0f"
+      },
+      {
+        "slug": "fastworkbench",
+        "fileId": "2838777",
+        "filename": "FastWorkbench-1.12.2-1.7.3.jar",
+        "md5": "b55a31e4193204572acf05f78e0deedc"
+      },
+      {
+        "slug": "foamfix-optimization-mod",
+        "fileId": "2845668",
+        "filename": "FoamFix 0.10.10 (1.12.2)",
+        "md5": "bba94f1ee252fcfbd2d52779f5c2f2b1"
+      },
+      {
+        "slug": "simple-gravel-ores",
+        "fileId": "2508120",
+        "filename": "GravelOres 1.8 for 1.12.x",
+        "md5": "e12e60a8e3a928ecb06c07af41fd1c55"
+      },
+      {
+        "slug": "i-know-what-im-doing",
+        "fileId": "2469710",
+        "filename": "IKWID 1.0.2",
+        "md5": "33debbd704840d9bceb170c44f1e3a2d"
+      },
+      {
+        "slug": "insomniac",
+        "fileId": "2652920",
+        "filename": "Insomniac 1.6",
+        "md5": "a87ca28f17cb20235d4a7117c0f4eaf7"
+      },
+      {
+        "slug": "itemzoom",
+        "fileId": "2643616",
+        "filename": "itemzoom_1.12.2-1.11.jar",
+        "md5": "b1561486f9cdc305c50a7b7237b4317c"
+      },
+      {
+        "slug": "just-enough-resources-jer",
+        "fileId": "2728585",
+        "filename": "JustEnoughResources-1.12.2-0.9.2.60",
+        "md5": "87a4666549a60d8fb423883dd4ee6232"
+      },
+      {
+        "slug": "mod-name-tooltip",
+        "fileId": "2739582",
+        "filename": "1.10.1",
+        "md5": "e36854d3c58af598ab3ce08d6cf0c760"
+      },
+      {
+        "slug": "more-overlays",
+        "fileId": "2745657",
+        "filename": "moreoverlays-1.15.1-mc1.12.2.jar",
+        "md5": "7b5200f51245b61ef149f7a33860e930"
+      },
+      {
+        "slug": "no-recipe-book",
+        "fileId": "2568865",
+        "filename": "noRecipeBook_v1.2.2formc1.12.2.jar",
+        "md5": "c4fa33c05a45db33c5dd0fa6bec82c61"
+      },
+      {
+        "slug": "patchouli",
+        "fileId": "2731963",
+        "filename": "Patchouli-1.0-20.jar",
+        "md5": "7ccc8471d31b2997768f813d8e3f7b96"
+      },
+      {
+        "slug": "quark",
+        "fileId": "2889332",
+        "filename": "Quark-r1.6-178.jar",
+        "md5": "8d69c5722fa6498813da16b4d940246d"
+      },
+      {
+        "slug": "vanillafix",
+        "fileId": "2639533",
+        "filename": "VanillaFix-1.0.10-99.jar",
+        "md5": "eb05714c798a94f52ddd8617857052ab"
+      },
+      {
+        "slug": "endercore"
+      },
+      {
+        "slug": "jeid",
+        "fileId": "2626479",
+        "filename": "JustEnoughIDs-1.0.2-26.jar",
+        "md5": "d59a5afae61495c66b47958b3fc2790c"
+      },
+      {
+        "slug": "surge"
+      }
+    ],
+    "development": [
+      {
+        "slug": "hwyla",
+        "fileId": "2568751",
+        "filename": "Hwyla-1.8.26-B41_1.12.2.jar",
+        "md5": "bca1c069d9171d331d211d24e8a3b770"
+      },
+      {
+        "slug": "jei-integration",
+        "fileId": "2491927",
+        "filename": "jeiintegration_1.12.2-1.5.1.36",
+        "md5": "de73cdc5de95a2685e50d90f01c03a50"
+      },
+      {
+        "slug": "world-stripper",
+        "fileId": "2635454",
+        "filename": "World-Stripper-1.6.0-1.12.2.jar",
+        "md5": "440ad06d9b4d89a3ff793c510299b4fc"
+      },
+      {
+        "slug": "worldedit",
+        "fileId": "2655056",
+        "filename": "WorldEdit 6.1.10 (For MC 1.12.2)",
+        "md5": "6bbc8250b88fd60b1bc0d6103019e820"
+      }
+    ],
+    "near-overworld": {
+      "natural-magic": [
+        {
+          "slug": "baubles",
+          "fileId": "2518667",
+          "filename": "Baubles-1.12-1.5.2.jar",
+          "md5": "944dec4ef3fbfd4d498d94a7047af201"
+        },
+        {
+          "slug": "bewitchment",
+          "fileId": "2877411",
+          "filename": "bewitchment-1.12.2-0.0.21.10.jar",
+          "md5": "25ea0b766b3557991b6f1f12f3db9fe3"
+        },
+        {
+          "slug": "mysticallib",
+          "fileId": "2865499",
+          "filename": "mysticallib-1.12.2-1.6.0.jar",
+          "md5": "4f1a5d2bb98dcdbba95d15875c08dbe1"
+        },
+        {
+          "slug": "roots",
+          "fileId": "2882804",
+          "filename": "Roots-1.12.2-3.0.25.jar",
+          "md5": "9d733bf20a0491ea334e221c79de5795"
+        },
+        {
+          "slug": "tinkers-construct",
+          "fileId": "2902483",
+          "filename": "TConstruct-1.12.2-2.13.0.183.jar",
+          "md5": "710d64342d41042b7d6ced891448e727"
+        },
+        {
+          "slug": "botania",
+          "fileId": "2846950",
+          "filename": "Botania r1.10-363.jar",
+          "md5": "5ba76d3db9345fa9e398523bddda59f3"
+        }
+      ],
+      "agriculture": [
+        {
+          "slug": "just-enough-harvestcraft",
+          "fileId": "2849443",
+          "filename": "[1.12.2] Just Enough HarvestCraft 1.7.0",
+          "md5": "a4d06849e3ba31081d8a5e7d5222bf81"
+        },
+        {
+          "slug": "pams-harvestcraft",
+          "fileId": "2771840",
+          "filename": "Pam's HarvestCraft 1.12.2zf.jar",
+          "md5": "d49e4034973a38b9a92d1f9939decd70"
+        },
+        {
+          "slug": "rustic",
+          "fileId": "2841018",
+          "filename": "rustic-1.1.2.jar",
+          "md5": "af36085c20278f162c22fbe4bbbdd661"
+        },
+        {
+          "slug": "saltymod",
+          "fileId": "2815130",
+          "filename": "SaltyMod-1.12.2-1.12.6.2.jar",
+          "md5": "452801cef870eb4c0f6115c34ce4fedc"
+        },
+        {
+          "slug": "growthcraft-community-edition",
+          "fileId": "2892715",
+          "filename": "Growthcraft 4.1.3.100",
+          "md5": "f79914f40e18d6387e70494d25072e5d"
+        }
+      ],
+      "fauna": [
+        {
+          "slug": "animania",
+          "fileId": "2814991",
+          "filename": "Animania-1.12.2-1.7.3",
+          "md5": "f75497a2a0dbbd1f179b717b6f67c79c"
+        },
+        {
+          "slug": "craftstudio-api",
+          "fileId": "2661859",
+          "filename": "CraftStudioAPI-1.0.1.95-mc1.12-alpha.jar",
+          "md5": "e6dcc9b9784d52aa67f6e706eccb2cb2"
+        },
+        {
+          "slug": "familiar-fauna",
+          "fileId": "2644656",
+          "filename": "FamiliarFauna-1.12.2-1.0.11.jar",
+          "md5": "a3bddaaba80627ff68f7c634c4098941"
+        },
+        {
+          "slug": "mystical-world",
+          "fileId": "2865502",
+          "filename": "mysticalworld-1.12.2-1.7.1.jar",
+          "md5": "cf3f24f5320657e9da900ac9242ba007"
+        }
+      ],
+      "decoration": [
+        {
+          "slug": "atlcraft-candles-mod",
+          "fileId": "2493674",
+          "filename": "ATLCraftCandlesMod(MC1.12-Ver1.9).jar",
+          "md5": "49c4e8fad632a44c4f435f446a8942c7"
+        },
+        {
+          "slug": "blockcraftery"
+        },
+        {
+          "slug": "bibliocraft",
+          "fileId": "2574880",
+          "filename": "BiblioCraft v2.4.5",
+          "md5": "5b9f1a1543a1fdf687fe4761e3d63ed4"
+        },
+        {
+          "slug": "chameleon",
+          "fileId": "2450900",
+          "filename": "Chameleon-1.12-4.1.3.jar",
+          "md5": "e42efa8f4fd42d2918128a826b740e98"
+        },
+        {
+          "slug": "comforts",
+          "fileId": "2880613",
+          "filename": "comforts-1.12.2-1.4.1.3.jar",
+          "md5": "47b49d007c3e337c294822cb34e59c4c"
+        },
+        {
+          "slug": "earthworks",
+          "fileId": "2486190",
+          "filename": "Earthworks-1.12-1.3.6.jar",
+          "md5": "ccf12258496a6e5936b6e0bc6def74b3"
+        },
+        {
+          "slug": "mrcrayfish-furniture-mod",
+          "fileId": "2749993",
+          "filename": "Furniture Mod 6.3.1",
+          "md5": "7e4f4d160032658e095eff8221977800"
+        },
+        {
+          "slug": "placeable-items",
+          "fileId": "2543705",
+          "filename": "1.12.2 Placeable Items 3.3",
+          "md5": "16521efbb0024592c1f0577f284a223d"
+        }
+      ],
+      "exploration": [
+        {
+          "slug": "antique-atlas",
+          "fileId": "2823030",
+          "filename": "antiqueatlas-1.12.2-4.6.3.jar",
+          "md5": "2cafce41d88d5067bf9a9da6a8fc79a8"
+        },
+        {
+          "slug": "natures-compass",
+          "description": "This is a fork with specific changes maintained by me.",
+          "filename": "NaturesCompass-1.12.2-1.8.0.jar"
+        },
+        {
+          "slug": "waystones",
+          "fileId": "2859589",
+          "filename": "Waystones_1.12.2-4.1.0.jar",
+          "md5": "5159122949ffb79b80a341135673e8f8"
+        },
+        {
+          "slug": "sentek-runic-teleporters",
+          "fileId": "2492522",
+          "filename": "Sentek 1.8 for MC1.12.2",
+          "md5": "fa0596b0cbde526a2f36cbf11ff1f853"
+        }
+      ],
+      "tech": [
+        {
+          "slug": "cofh-core",
+          "fileId": "2716100",
+          "filename": "CoFHCore-1.12.2-4.6.3.27-universal.jar",
+          "md5": "90efac9c0abffa63c6da1453ceca1d68"
+        },
+        {
+          "slug": "thermal-foundation",
+          "fileId": "2715788",
+          "filename": "ThermalFoundation-1.12.2-2.6.3.27-universal.jar",
+          "md5": "0f61017dc9412ba4aad8a64f7bca16bb"
+        },
+        {
+          "slug": "thermal-expansion"
+        },
+        {
+          "slug": "thermal-dynamics"
+        },
+        {
+          "slug": "codechicken-lib-1-8"
+        },
+        {
+          "slug": "redstone-flux",
+          "fileId": "2623090",
+          "filename": "RedstoneFlux-1.12-2.1.0.6-universal.jar",
+          "md5": "f00530b437c41a189dbf8a85d0ac40b6"
+        },
+        {
+          "slug": "ender-io"
+        }
+      ],
+      "storage": [
+        {
+          "slug": "arcane-archives",
+          "fileId": "2914702",
+          "filename": "Waystones_1.12.2-4.1.0.jar",
+          "md5": "906a22a24b2729eda7784a87ee4f1725"
+        },
+        {
+          "slug": "simple-storage-network"
+        },
+        {
+          "slug": "improvedbackpacks"
+        }
+      ]
+    },
+    "far-overworld": [
+      {
+        "slug": "nuclearcraft"
+      },
+      {
+        "slug": "applied-energistics-2",
+        "description": "AE2 is in the far-overworld because the meteorites are hard to find."
+      },
+      {
+        "slug": "embers-rekindled",
+        "description": "Far overworld because nickel is mostly found in mountains.",
+        "fileId": "2697221",
+        "filename": "EmbersRekindled-1.13-hotfix2.jar",
+        "md5": "4710702cd0ad48461b15c169589d3dbc"
+      },
+      {
+        "slug": "aetherworks",
+        "description": "Aetherworks is in the far overworld because it's ore only spawns above y = 150"
+      },
+      {
+        "slug": "mysticalmechanics"
+      },
+      {
+        "slug": "mystical-gears"
+      },
+      {
+        "slug": "mantle",
+        "fileId": "2713386",
+        "filename": "Mantle-1.12-1.3.3.55.jar",
+        "md5": "1026f5f8d3c4997831decd9023ca65a6"
+      },
+      {
+        "slug": "astral-sorcery",
+        "description": "Far overworld because the temples and shrines are only found in mountains.",
+        "fileId": "3044416",
+        "filename": "AstralSorcery-1.12.2-1.10.27.jar",
+        "md5": "c2db411b6e678c7e24035cd5c0525264"
+      },
+      {
+        "slug": "mekanism",
+        "description": "Kind of far overworld because osmium generates in igneous rocks... could almost be near overworld."
+      },
+      {
+        "slug": "mekanism-generators"
+      },
+      {
+        "slug": "mekanism-tools"
+      },
+      {
+        "slug": "thaumcraft"
+      },
+      {
+        "slug": "auracontrol"
+      }
+    ]
+  }
+}

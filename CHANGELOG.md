@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## [0.3.1] - 2020-09-26
+
+## Added
+ - In Control to take back the niiiiiight
+ - used in control to control the way that thermal expansion elementals spawn
+
 ## Changed
  - corpse was crashing which we fixed by setting "owner only" to false in the config
  - unidict config set to hide unified ores in JEI
@@ -15,6 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - re-added the roots spindle recipe which was removed in error
  - removed silk from ore:string and added a 2x2 silk -> wool recipe so that 
    you can definitely get string from silk 1 to 1 but it takes processing
+ - fixed native silver ore distribution
+ - tweaked map recipe to use quill and paper instead of compass
+ - generated JER data for 5000 chunks
 
 ## [0.3.0] - 2020-09-19
 

@@ -2,7 +2,7 @@
   "priority": 1000000000000,
   "enabled": true,
   "populate": {
-	"iron": {
+		"iron": {
       "distribution": "uniform",
       "details": {
         "description": "Vanilla Override. Adds nickel. When iron is found with nickel, it is because the deposite is the leftovers of a meteorite.",
@@ -237,7 +237,7 @@
 			},
 			"cluster-count": 1,
 			"center-height": 26,
-			"spread": 26,
+			"spread": 16,
 			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",

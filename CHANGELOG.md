@@ -7,13 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## [0.3.2] - 2020-10-04
+
+### Changed
+ - further hacked Nature's Compass to be more friendly at great distances
+ - fixed magnesium generation to be in the correct range
+ - added Tea the Story lemons to listAllFruit and listAllCitrus
+ - Tea the Story lemons no longer drop from trees and are essentially unobtainable
+ - resolved a recipe conflict between earthworks mud and mysticalworld wet mud
+
 ## [0.3.1] - 2020-09-26
 
-## Added
+### Added
  - In Control to take back the niiiiiight
  - used in control to control the way that thermal expansion elementals spawn
 
-## Changed
+### Changed
  - corpse was crashing which we fixed by setting "owner only" to false in the config
  - unidict config set to hide unified ores in JEI
  - restore pinch of salt which got clobbered by unidict
@@ -27,7 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.3.0] - 2020-09-19
 
-## Added
+### Added
  - Thaumcraft and AuraControl for that sometimes thaumcraft feel
  - Ore Stone Variants joins the fight!
  - certus quartz occurs regularly in the igneous rocks at certain depths
@@ -49,7 +58,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - tweaked a serene season to be 504 mc days, ie 1 earth week per serene season
  - disable as many welcome messages as I could...
 
-## Changed
+### Changed
  - blacklisted many biomes for bewitchment trees
  - reduced the frequency of bewitchment trees
  - removed bewitchment structures
@@ -62,13 +71,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - osmium spawns only in igneous rocks in to 0 - 50 range, and is a little less common than iron
  - config chisels and bits so that it will allow bop dirt
 
-## Removed
+### Removed
  - corrail tombstone, a wild and crazy gravestone mod
  - roguelike dungeons was not configurable enough it may make a comeback later
 
 ## [0.2.0] - 2020-09-11
 
-## Added
+### Added
  - astral sorcery to add mystery and power to the night
  - ancient temples spawn only on the highest alps peaks
  - buried temples can appear in snowy, and sandy biomes above y = 140
@@ -85,7 +94,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - Nuclearcraft for those big dangerous reactors (disabled wastelands)
  - Configured COFH to spawn nuclearcraft ores in the bases of mountains
 
-## Changed
+### Changed
  - Waystones config updated to prevent breaking generated waystones
  - Waystones set max level cost to 30
  - set wickerman spawn to 0 because I found a gross wickerman (it spawned real bad)
@@ -93,24 +102,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - increased the occurrence of meteoric iron geodes because they are fun
  - changed their surface to sky-stone
 
-## Removed
+### Removed
  - Additional Structures is not sufficiently configurable (or all that useful, really).
    Part of this change is also that we've decided that structures in the near-overworld
    should predominantly be build by players.
 
 ## [0.1.1] - 2020-04-12
 
-## Added
+### Added
 
  - Fork of Nature's Compass, you can use the compass to track down rare biomes but it isn't easy!
  - Baking Pam's dough in a furnace gives you bread.
 
-## Changed
+### Changed
 
  - Bewitchemt mobs (like blackdog and druden) mostly spawn in SPOOKY and MAGICAL biomes (including dense forests)
  - Embers bin recipe now uses tin instead of iron because bins suck compared to thermal caches.
 
-## Removed
+### Removed
 
  - Roots bread recipe in favour of Pam's bread recipe because Pam's is cooler.
  - Crafting table bread recipes, you must bake bread.

@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## [0.4.0] - 2020-10-17
+
+### Added
+ - unlimited chisel works so that dooly can craft nice things from pine and olive wood
+ - preston for compressed sand, gravel, stone, cobble
+ - heterorustichromia for pre-industrial tech shenanigans
+
+### Changed
+ - unified flour, now Pam's is the only craftable flour
+ - added wheat -> flour to all grinding machines, with flour doubling
+ - added feather support to recipe for scribing tools
+ - add olive oil as an ingredient for rich biomass and rich bioblend
+ - add olive oil as a fuel for compression dynamo and combustion generator
+ - scribing tools can now be crafted with any feathers, not just feathers
+ - scribing tools can now be used to craft a map instead of compass
+ - removed the recipe for quark stone pavement to make way for compressed stone; we already have pavement from chisel anyway
+ - removed the recipe for quark thatch due to a conflict with the better looking earthworks thatch
+
 ## [0.3.2] - 2020-10-04
 
 ### Changed

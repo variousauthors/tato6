@@ -1,0 +1,10 @@
+minecraft:farmer
+minecraft:librarian
+minecraft:priest
+minecraft:smith
+minecraft:butcher
+minecraft:nitwit
+atlcraft:atlcraft_villager_candlemaker
+roots:druid
+bewitchment:hedge_witch
+bewitchment:alchemist

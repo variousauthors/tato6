@@ -49,11 +49,24 @@ Mortar.addRecipe(<minecraft:string> * 2, [<minecraft:wool>]);
 
 /** SILK -- silk is OP so lets tone it down */
 
-recipes.remove(<mysticalworld:spindle>);
 recipes.remove(<mysticalworld:silk_thread>);
 
 recipes.addShapeless(<mysticalworld:silk_thread> * 2, [<mysticalworld:silk_cocoon>, <mysticalworld:spindle>]);
 recipes.addShapeless(<mysticalworld:silk_thread>, [<mysticalworld:silk_cocoon>]);
+
+// the roots book recipe is OP it uses silk-thread instead os string
+recipes.removeByRecipeName('roots:book');
+
+// remove silk from the string ore dictionary
+val oreString = <ore:string>;
+oreString.remove(<mysticalworld:silk_thread>);
+
+val silk = <mysticalworld:silk_thread>;
+val wool = <minecraft:wool>;
+// silk can be crafted into wool, which can be broken down into string
+recipes.addShaped("tato6_silk_wool", wool,
+ [[silk,silk],
+  [silk,silk]]);
 
 /** MISC */
 

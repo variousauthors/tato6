@@ -5,7 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## [0.5.0] - 2020-10-31
+
+### Changed
+ - thermal expansion elementals now spawn from spawners regardless of biome
+ - reduce the frequency of silkworm eggs from 1/55 to 1/200
+ - stakes and shakes are now craftable
+ - pinch of salt is now an itemSalt, previously uncraftable foods are now craftable
+ - the mechanical to rf converter can now be crafted
+
+### Added
+ - no enderman pickup prevents endermen from picking up blocks
+ - redstone arsenal adds tools powered by RF
 
 ## [0.4.0] - 2020-10-17
 

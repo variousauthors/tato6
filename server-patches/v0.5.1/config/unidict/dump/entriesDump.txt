@@ -1,0 +1,864 @@
+Californium249
+	nuggetCalifornium249
+	ingotCalifornium249
+
+Americium242Oxide
+	nuggetAmericium242Oxide
+	ingotAmericium242Oxide
+
+Uranium238Oxide
+	nuggetUranium238Oxide
+	ingotUranium238Oxide
+
+Neptunium237
+	nuggetNeptunium237
+	blockNeptunium237
+	ingotNeptunium237
+
+Neptunium236
+	nuggetNeptunium236
+	ingotNeptunium236
+
+Neptunium236Oxide
+	nuggetNeptunium236Oxide
+	ingotNeptunium236Oxide
+
+Berkelium247Oxide
+	nuggetBerkelium247Oxide
+	ingotBerkelium247Oxide
+
+Lumium
+	itemGrindingBallLumium
+	gearLumium
+	dustLumium
+	nuggetLumium
+	plateLumium
+	blockLumium
+	ingotLumium
+	coinLumium
+
+Pigiron
+	nuggetPigiron
+	blockPigiron
+	ingotPigiron
+
+Tough
+	ingotTough
+
+RedAlloy
+	ingotRedAlloy
+
+Zirconium
+	dustZirconium
+	blockZirconium
+	ingotZirconium
+
+DarkChocolate
+	ingotDarkChocolate
+
+Psi
+	gemPsi
+	dustPsi
+	ingotPsi
+
+Alubrass
+	nuggetAlubrass
+	blockAlubrass
+	ingotAlubrass
+
+LeadPlatinum
+	ingotLeadPlatinum
+
+Aluminum
+	gearAluminum
+	dustAluminum
+	nuggetAluminum
+	plateAluminum
+	oreAluminum
+	blockAluminum
+	ingotAluminum
+	coinAluminum
+
+SiCSiCCMC
+	ingotSiCSiCCMC
+
+Boron10
+	nuggetBoron10
+	ingotBoron10
+
+Californium251Oxide
+	nuggetCalifornium251Oxide
+	ingotCalifornium251Oxide
+
+Uranium233Base
+	ingotUranium233Base
+
+Marshmallow
+	ingotMarshmallow
+
+Plutonium242Oxide
+	nuggetPlutonium242Oxide
+	ingotPlutonium242Oxide
+
+Electrum
+	gearElectrum
+	dustElectrum
+	nuggetElectrum
+	plateElectrum
+	blockElectrum
+	ingotElectrum
+	coinElectrum
+
+Iron
+	dustTinyIron
+	barsIron
+	crystalIron
+	clusterIron
+	clumpIron
+	dustDirtyIron
+	shardIron
+	gearIron
+	dustIron
+	nuggetIron
+	plateIron
+	oreIron
+	blockIron
+	ingotIron
+	coinIron
+
+LithiumManganeseDioxide
+	ingotLithiumManganeseDioxide
+
+ElectricalSteel
+	ballElectricalSteel
+	nuggetElectricalSteel
+	blockElectricalSteel
+	ingotElectricalSteel
+
+Boron
+	dustBoron
+	oreBoron
+	blockBoron
+	ingotBoron
+
+Soularium
+	ballSoularium
+	dustSoularium
+	nuggetSoularium
+	blockSoularium
+	ingotSoularium
+
+ElvenElementium
+	gearElvenElementium
+	nuggetElvenElementium
+	ingotElvenElementium
+
+Zircaloy
+	ingotZircaloy
+
+Tin
+	crystalTin
+	clusterTin
+	clumpTin
+	dustDirtyTin
+	shardTin
+	gearTin
+	dustTin
+	nuggetTin
+	plateTin
+	oreTin
+	blockTin
+	ingotTin
+	coinTin
+
+Californium251Base
+	ingotCalifornium251Base
+
+Americium242Base
+	ingotAmericium242Base
+
+Uranium235Oxide
+	nuggetUranium235Oxide
+	ingotUranium235Oxide
+
+Californium249Oxide
+	nuggetCalifornium249Oxide
+	ingotCalifornium249Oxide
+
+Neptunium237Oxide
+	nuggetNeptunium237Oxide
+	ingotNeptunium237Oxide
+
+Plutonium242
+	nuggetPlutonium242
+	blockPlutonium242
+	ingotPlutonium242
+
+Nickel
+	gearNickel
+	dustNickel
+	nuggetNickel
+	plateNickel
+	oreNickel
+	blockNickel
+	ingotNickel
+	coinNickel
+
+Graphite
+	dustGraphite
+	blockGraphite
+	ingotGraphite
+
+Plutonium241Oxide
+	nuggetPlutonium241Oxide
+	ingotPlutonium241Oxide
+
+MagnesiumDiboride
+	solenoidMagnesiumDiboride
+	ingotMagnesiumDiboride
+
+Berkelium247Base
+	ingotBerkelium247Base
+
+ColdIron
+	nuggetColdIron
+	plateColdIron
+	blockColdIron
+	ingotColdIron
+
+Curium245Oxide
+	nuggetCurium245Oxide
+	ingotCurium245Oxide
+
+ConductiveIron
+	ballConductiveIron
+	nuggetConductiveIron
+	blockConductiveIron
+	ingotConductiveIron
+
+Americium243Oxide
+	nuggetAmericium243Oxide
+	ingotAmericium243Oxide
+
+Plutonium239
+	nuggetPlutonium239
+	ingotPlutonium239
+
+Plutonium238
+	nuggetPlutonium238
+	ingotPlutonium238
+
+Americium243
+	nuggetAmericium243
+	blockAmericium243
+	ingotAmericium243
+
+Americium242
+	nuggetAmericium242
+	ingotAmericium242
+
+Americium241
+	nuggetAmericium241
+	ingotAmericium241
+
+ElectrotineAlloy
+	ingotElectrotineAlloy
+
+Berkelium248Oxide
+	nuggetBerkelium248Oxide
+	ingotBerkelium248Oxide
+
+Neptunium236Base
+	ingotNeptunium236Base
+
+Lithium
+	dustLithium
+	oreLithium
+	blockLithium
+	ingotLithium
+
+HSLASteel
+	ingotHSLASteel
+
+CrudeSteel
+	ballCrudeSteel
+	nuggetCrudeSteel
+	blockCrudeSteel
+	ingotCrudeSteel
+
+Thaumium
+	gearThaumium
+	nuggetThaumium
+	plateThaumium
+	blockThaumium
+	ingotThaumium
+
+Osmium
+	denseoreOsmium
+	crystalOsmium
+	clumpOsmium
+	dustDirtyOsmium
+	shardOsmium
+	dustOsmium
+	nuggetOsmium
+	oreOsmium
+	blockOsmium
+	ingotOsmium
+
+DarkSteel
+	ballDarkSteel
+	nuggetDarkSteel
+	blockDarkSteel
+	ingotDarkSteel
+
+ThoriumOxide
+	dustThoriumOxide
+	ingotThoriumOxide
+
+Manasteel
+	gearManasteel
+	nuggetManasteel
+	ingotManasteel
+
+Gold
+	crystalGold
+	clusterGold
+	clumpGold
+	dustDirtyGold
+	shardGold
+	gearGold
+	dustGold
+	nuggetGold
+	plateGold
+	oreGold
+	blockGold
+	ingotGold
+	coinGold
+
+Extreme
+	ingotExtreme
+
+Void
+	gearVoid
+	nuggetVoid
+	plateVoid
+	blockVoid
+	ingotVoid
+
+Thorium230Oxide
+	nuggetThorium230Oxide
+	ingotThorium230Oxide
+
+TinSilver
+	ingotTinSilver
+
+CrystallineAlloy
+	ballCrystallineAlloy
+	nuggetCrystallineAlloy
+	blockCrystallineAlloy
+	ingotCrystallineAlloy
+
+Californium252Oxide
+	nuggetCalifornium252Oxide
+	ingotCalifornium252Oxide
+
+Lithium7
+	nuggetLithium7
+	ingotLithium7
+
+Lithium6
+	nuggetLithium6
+	ingotLithium6
+
+Chocolate
+	ingotChocolate
+
+Plutonium238Oxide
+	nuggetPlutonium238Oxide
+	ingotPlutonium238Oxide
+
+SiliconCarbide
+	fiberSiliconCarbide
+	ingotSiliconCarbide
+
+UraniumOxide
+	dustUraniumOxide
+	ingotUraniumOxide
+
+Californium251
+	nuggetCalifornium251
+	ingotCalifornium251
+
+Thorium230Base
+	ingotThorium230Base
+
+Californium250Base
+	ingotCalifornium250Base
+
+Americium241Base
+	ingotAmericium241Base
+
+Neptunium237Base
+	ingotNeptunium237Base
+
+UnsweetenedChocolate
+	ingotUnsweetenedChocolate
+
+MelodicAlloy
+	ballMelodicAlloy
+	nuggetMelodicAlloy
+	blockMelodicAlloy
+	ingotMelodicAlloy
+
+Dawnstone
+	gearDawnstone
+	nuggetDawnstone
+	plateDawnstone
+	blockDawnstone
+	ingotDawnstone
+
+PulsatingIron
+	ballPulsatingIron
+	nuggetPulsatingIron
+	blockPulsatingIron
+	ingotPulsatingIron
+
+Platinum
+	gearPlatinum
+	dustPlatinum
+	nuggetPlatinum
+	platePlatinum
+	orePlatinum
+	blockPlatinum
+	ingotPlatinum
+	coinPlatinum
+
+Mithril
+	gearMithril
+	dustMithril
+	nuggetMithril
+	plateMithril
+	oreMithril
+	blockMithril
+	ingotMithril
+	coinMithril
+
+EndSteel
+	ballEndSteel
+	nuggetEndSteel
+	blockEndSteel
+	ingotEndSteel
+
+Curium246Oxide
+	nuggetCurium246Oxide
+	ingotCurium246Oxide
+
+AstralStarmetal
+	dustAstralStarmetal
+	oreAstralStarmetal
+	ingotAstralStarmetal
+
+Terrasteel
+	gearTerrasteel
+	nuggetTerrasteel
+	ingotTerrasteel
+
+Copper
+	solenoidCopper
+	crystalCopper
+	clusterCopper
+	clumpCopper
+	dustDirtyCopper
+	shardCopper
+	gearCopper
+	dustCopper
+	nuggetCopper
+	plateCopper
+	oreCopper
+	blockCopper
+	ingotCopper
+	coinCopper
+
+Ardite
+	nuggetArdite
+	oreArdite
+	blockArdite
+	ingotArdite
+
+Thorium
+	dustThorium
+	oreThorium
+	blockThorium
+	ingotThorium
+
+Shibuichi
+	ingotShibuichi
+
+Lead
+	tinyDustLead
+	crystalLead
+	clusterLead
+	clumpLead
+	dustDirtyLead
+	shardLead
+	gearLead
+	dustLead
+	nuggetLead
+	plateLead
+	oreLead
+	blockLead
+	ingotLead
+	coinLead
+
+Berkelium247
+	nuggetBerkelium247
+	blockBerkelium247
+	ingotBerkelium247
+
+RefinedObsidian
+	dustRefinedObsidian
+	nuggetRefinedObsidian
+	blockRefinedObsidian
+	ingotRefinedObsidian
+
+StellarAlloy
+	ballStellarAlloy
+	nuggetStellarAlloy
+	blockStellarAlloy
+	ingotStellarAlloy
+
+Berkelium248
+	nuggetBerkelium248
+	ingotBerkelium248
+
+Curium247Base
+	ingotCurium247Base
+
+ConstructionAlloy
+	ballConstructionAlloy
+	nuggetConstructionAlloy
+	blockConstructionAlloy
+	ingotConstructionAlloy
+
+Magnesium
+	dustMagnesium
+	oreMagnesium
+	blockMagnesium
+	ingotMagnesium
+
+Plutonium239Base
+	ingotPlutonium239Base
+
+Uranium233Oxide
+	nuggetUranium233Oxide
+	ingotUranium233Oxide
+
+Plutonium239Oxide
+	nuggetPlutonium239Oxide
+	ingotPlutonium239Oxide
+
+Boron11
+	nuggetBoron11
+	ingotBoron11
+
+Plutonium242Base
+	ingotPlutonium242Base
+
+Curium243Base
+	ingotCurium243Base
+
+Uranium235Base
+	ingotUranium235Base
+
+Curium247
+	nuggetCurium247
+	ingotCurium247
+
+Silver
+	chestplateSilver
+	pickaxeSilver
+	helmetSilver
+	swordSilver
+	axeSilver
+	leggingsSilver
+	shovelSilver
+	hoeSilver
+	crystalSilver
+	clusterSilver
+	clumpSilver
+	dustDirtySilver
+	shardSilver
+	gearSilver
+	dustSilver
+	nuggetSilver
+	plateSilver
+	oreSilver
+	blockSilver
+	ingotSilver
+	bootsSilver
+	coinSilver
+
+Aether
+	lensAether
+	gemAether
+	shardAether
+	nuggetAether
+	plateAether
+	oreAether
+	blockAether
+	ingotAether
+
+Californium252
+	nuggetCalifornium252
+	blockCalifornium252
+	ingotCalifornium252
+
+ManganeseOxide
+	dustManganeseOxide
+	ingotManganeseOxide
+
+Curium243Oxide
+	nuggetCurium243Oxide
+	ingotCurium243Oxide
+
+Signalum
+	plateSignalum
+	gearSignalum
+	dustSignalum
+	nuggetSignalum
+	itemGrindingBallSignalum
+	blockSignalum
+	ingotSignalum
+	coinSignalum
+
+EnergeticAlloy
+	ballEnergeticAlloy
+	nuggetEnergeticAlloy
+	blockEnergeticAlloy
+	ingotEnergeticAlloy
+
+Curium245Base
+	ingotCurium245Base
+
+Constantan
+	gearConstantan
+	dustConstantan
+	nuggetConstantan
+	plateConstantan
+	blockConstantan
+	ingotConstantan
+	coinConstantan
+
+Curium246
+	nuggetCurium246
+	blockCurium246
+	ingotCurium246
+
+Curium245
+	nuggetCurium245
+	ingotCurium245
+
+Curium243
+	nuggetCurium243
+	ingotCurium243
+
+Uranium235
+	nuggetUranium235
+	ingotUranium235
+
+CocoaButter
+	ingotCocoaButter
+
+VibrantAlloy
+	ballVibrantAlloy
+	nuggetVibrantAlloy
+	blockVibrantAlloy
+	ingotVibrantAlloy
+
+Californium250
+	nuggetCalifornium250
+	ingotCalifornium250
+
+Curium247Oxide
+	nuggetCurium247Oxide
+	ingotCurium247Oxide
+
+Thermoconducting
+	ingotThermoconducting
+
+Bronze
+	gearBronze
+	dustBronze
+	nuggetBronze
+	plateBronze
+	blockBronze
+	ingotBronze
+	coinBronze
+
+IvoryPsi
+	ingotIvoryPsi
+
+Uranium238
+	nuggetUranium238
+	blockUranium238
+	ingotUranium238
+
+Californium250Oxide
+	nuggetCalifornium250Oxide
+	ingotCalifornium250Oxide
+
+Invar
+	gearInvar
+	dustInvar
+	nuggetInvar
+	plateInvar
+	blockInvar
+	ingotInvar
+	coinInvar
+
+Uranium233
+	nuggetUranium233
+	ingotUranium233
+
+Manyullyn
+	nuggetManyullyn
+	blockManyullyn
+	ingotManyullyn
+
+Brass
+	gearBrass
+	nuggetBrass
+	plateBrass
+	blockBrass
+	ingotBrass
+
+Iridium
+	gearIridium
+	dustIridium
+	nuggetIridium
+	plateIridium
+	oreIridium
+	blockIridium
+	ingotIridium
+	coinIridium
+
+VividAlloy
+	ballVividAlloy
+	nuggetVividAlloy
+	blockVividAlloy
+	ingotVividAlloy
+
+Uranium238Base
+	ingotUranium238Base
+
+Curium246Base
+	ingotCurium246Base
+
+Cobalt
+	nuggetCobalt
+	oreCobalt
+	blockCobalt
+	ingotCobalt
+
+RefinedGlowstone
+	nuggetRefinedGlowstone
+	blockRefinedGlowstone
+	ingotRefinedGlowstone
+
+Berkelium248Base
+	ingotBerkelium248Base
+
+Plutonium241
+	nuggetPlutonium241
+	ingotPlutonium241
+
+HardCarbon
+	ingotHardCarbon
+
+Plutonium238Base
+	ingotPlutonium238Base
+
+ManganeseDioxide
+	dustManganeseDioxide
+	ingotManganeseDioxide
+
+Thorium232Oxide
+	nuggetThorium232Oxide
+	ingotThorium232Oxide
+
+Plutonium241Base
+	ingotPlutonium241Base
+
+Thorium230
+	nuggetThorium230
+	blockThorium230
+	ingotThorium230
+
+Californium249Base
+	ingotCalifornium249Base
+
+Beryllium
+	dustBeryllium
+	blockBeryllium
+	ingotBeryllium
+
+Thorium232Base
+	ingotThorium232Base
+
+Californium252Base
+	ingotCalifornium252Base
+
+Enderium
+	itemGrindingBallEnderium
+	gearEnderium
+	dustEnderium
+	nuggetEnderium
+	plateEnderium
+	blockEnderium
+	ingotEnderium
+	coinEnderium
+
+Americium243Base
+	ingotAmericium243Base
+
+Ferroboron
+	ingotFerroboron
+
+EbonyPsi
+	ingotEbonyPsi
+
+EnergeticSilver
+	ballEnergeticSilver
+	nuggetEnergeticSilver
+	blockEnergeticSilver
+	ingotEnergeticSilver
+
+Steel
+	gearSteel
+	dustSteel
+	nuggetSteel
+	plateSteel
+	blockSteel
+	ingotSteel
+	coinSteel
+
+Thorium232
+	nuggetThorium232
+	ingotThorium232
+
+Manganese
+	dustCarbonManganese
+	dustManganese
+	blockManganese
+	ingotManganese
+
+Uranium
+	dustUranium
+	oreUranium
+	blockUranium
+	ingotUranium
+
+Americium241Oxide
+	nuggetAmericium241Oxide
+	ingotAmericium241Oxide
+

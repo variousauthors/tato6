@@ -1,0 +1,71 @@
+[
+  {
+    "mob": ["thermalfoundation:basalz"],
+    "biome": "Volcanic Island",
+    "result": "default"
+  },
+  {
+    "mob": ["thermalfoundation:basalz"],
+    "biome": "Crag",
+    "result": "default"
+  },
+  {
+    "mob": ["thermalfoundation:basalz"],
+    "spawner": false,
+    "result": "deny"
+  },
+  {
+    "mob": ["thermalfoundation:blitz"],
+    "biome": "Wasteland",
+    "result": "default"
+  },
+  {
+    "mob": ["thermalfoundation:blitz"],
+    "spawner": false,
+    "result": "deny"
+  },
+  {
+    "mob": ["thermalfoundation:blizz"],
+    "biome": "Cold Desert",
+    "result": "default"
+  },
+  {
+    "mob": ["thermalfoundation:blizz"],
+    "biome": "Ice Plains",
+    "weather": "rain",
+    "result": "default"
+  },
+  {
+    "mob": ["thermalfoundation:blizz"],
+    "biome": "Ice Plains",
+    "weather": "thunder",
+    "result": "default"
+  },
+  {
+    "mob": ["thermalfoundation:blizz"],
+    "biome": "SnowyTundra",
+    "weather": "rain",
+    "result": "default"
+  },
+  {
+    "mob": ["thermalfoundation:blizz"],
+    "biome": "SnowyTundra",
+    "weather": "thunder",
+    "result": "default"
+  },
+  {
+    "mob": ["thermalfoundation:blizz"],
+    "biome": "Ice Plains Spikes",
+    "result": "default"
+  },
+  {
+    "mob": ["thermalfoundation:blizz"],
+    "spawner": false,
+    "result": "deny"
+  },
+  {
+    "biome": "Ice Plains Spikes",
+    "spawner": false,
+    "result": "deny"
+  }
+]

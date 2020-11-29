@@ -7,10 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-## [0.5.1] - 2020-10-31
+## [0.6.0] - 2020-11-28
 
 ### Changed
  - unified certus quartz so that Chris could have more certus quartz
+ - set astral sorcery falling stars not to explode
+ - set chicken chunks to only load when you are online
+ - added naturally occurring bewitchment and roots plants to serene seasons
+ - add olive wood and logs to forge microblocks
+ - blizz spawn in snowy tundra during rain and storms
+ - nitor of all colors works as a heat source for growthcraft
+
+## Added
+ - Masonry Block to make lovely cornerstones
+ - Pantography for more interesting map shenanigans
+ - Thermal Innovation adds more toys for industry
+ - Just a Few Fish to liven up the rivers and the seas
+ - Garden Stuff really just adds like, some wrought iron stuff but... whatever! It looks nice
+ - Add wireless redstone for transmitting redstone without having to worry about wires
 
 ## [0.5.0] - 2020-10-31
 

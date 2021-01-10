@@ -5,7 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## [0.7.0] - 2021-01-09
+
+### Changes
+ - add botania infusion recipes for getting the other kinds of slimes
+ - add orange slime as a drop from some plants in the nether
+ - remove preston compression recipes from the JEI since it is all or nothing :/
+ - reset the BoP nether biomes to default (previously I had made the BoP nether biomes rare
+   to maintain the vanilla feel, but now seeing as vanilla Nether is wild... ours will be too)
+ - did some tweaking to inControl spawn rules so that ghasts spawn like I remember them spawning
+ - mekanism ore processing accepts gravel ores
+
+### Added
+ - add Better Nether to make the nether better
+
+## [0.6.1] - 2020-11-28
+
+### Changed
+ - oops: 0.6.0 had the wrong version of nature's compass, so this patch fixes that
 
 ## [0.6.0] - 2020-11-28
 

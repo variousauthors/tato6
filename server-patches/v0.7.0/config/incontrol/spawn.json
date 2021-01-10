@@ -43,6 +43,18 @@
   },
   {
     "mob": ["thermalfoundation:blizz"],
+    "biome": "SnowyTundra",
+    "weather": "rain",
+    "result": "default"
+  },
+  {
+    "mob": ["thermalfoundation:blizz"],
+    "biome": "SnowyTundra",
+    "weather": "thunder",
+    "result": "default"
+  },
+  {
+    "mob": ["thermalfoundation:blizz"],
     "biome": "Ice Plains Spikes",
     "result": "default"
   },
@@ -56,4 +68,8 @@
     "spawner": false,
     "result": "deny"
   },
+  {
+    "mob": ["minecraft:ghast"],
+    "result": "allow"
+  }
 ]

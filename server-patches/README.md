@@ -16,8 +16,8 @@ As you make changes, add the changes to the server-patch folder for the unreleas
 
 When you remove files or mods from the release, this may be a major version bump and care must be taken to ensure that the server is patched correctly.
 
-RELEASE CHECKLIST
------------------
+BUILD CHECKLIST (multimc)
+---------------------------
 
 1. copy any mods you added from the current instance to `unreleased/mods` and `modpack/mods`
 2. rename unreleased to [release-version] and update the changelog
@@ -25,8 +25,18 @@ RELEASE CHECKLIST
 4. export the "unreleased" instance from multimc as a zip file named overworld-[release-version].zip
 5. rename the "unreleased" instance to "[release-version]"
 6. import overworld-[release-version].zip and name it "unreleased"
+
+PUBLISH CHECKLIST
+-----------------
+
 7. upload the new release to google drive
 8. update the instructions to point to the latest released version
+
+9. in artifacts/technic find the latest modpack ([previous-release-version].zip) 
+10. unzip the archive
+11. apply the patch from server-patch/[release-version]
+12. compress the archive and rename it to [release-version].zip
+13. upload the new modpack to dropbox (possibly deleting an older modpack to make space)
 
 9. stop the server
 10. upload the files from server-patch/[release-version]

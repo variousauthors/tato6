@@ -1,0 +1,14 @@
+{
+  "name": "Lapis",
+  "icon": "minecraft:dye:4",
+  "category": "patchouli:ores",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Lapis Ore",
+      "item": "minecraft:lapis_ore",
+      "text": "$(l)Depth: y = 0 - 32$()$(br2)Lapis lazuli ore veins occurs in the same distribution as in vanilla minecraft: a gaussian distribution around y = 16."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Osmium",
+  "icon": "mekanism:ingot",
+  "category": "patchouli:ores",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Osmium Ore",
+      "item": "osv:mekanism_oreblock_1",
+      "text": "$(l)Depth: y = 0 - 50$()$(br2)Osmium ore occurs in small veins in igneous rock formations. These formations can be found in the vanilla and modded stratum, at all y levels. Roughly 1% of all igneous rocks contain osmium ore, making it comparable in rarity to iron."
+    },
+    {
+      "type": "crafting",
+      "title": "Osmium Tools",
+      "recipe": "mekanismtools:osmiumpickaxe",
+      "text": "Osmium is hard enough to be crafted into more effective and durable tools than the somewhat more common iron. Using osmium for tools instead of iron is great way to conserve the more ubiquitously useful iron ore."
+    },
+    {
+      "type": "crafting",
+      "title": "Osmium Armor",
+      "recipe": "mekanismtools:osmiumchestplate",
+      "text": "In addition to tools, osmium can be used to craft armor more effective than simple iron armor. Some scholars believe it is also more aesthetically pleasing than iron armor, though this is hotly debated."
+    },
+    {
+      "type": "spotlight",
+      "title": "Industrial Uses",
+      "item": "mekanism:machineblock:8",
+      "text": "Lastly, the conductive properties of osmium make it supremely useful for more specialized industrial applications.$(br2)See the relevant section of the guide for more details."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "technology/mekanism"
+      ]
+    }
+  ]
+}

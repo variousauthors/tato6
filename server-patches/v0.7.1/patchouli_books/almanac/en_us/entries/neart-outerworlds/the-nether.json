@@ -1,0 +1,11 @@
+{
+  "name": "The Nether",
+  "icon": "biomesoplenty:grass:6",
+  "category": "patchouli:near-outerworlds",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Oh you know, the nether."
+    }
+  ]
+}

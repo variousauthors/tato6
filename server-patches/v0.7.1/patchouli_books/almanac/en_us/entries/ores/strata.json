@@ -1,0 +1,37 @@
+{
+  "name": "Strata",
+  "icon": "minecraft:stone",
+  "category": "patchouli:ores",
+  "sortnum": 1,
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Inventory space is limited. Any experienced miner can tell you about a time they went mining only to return home with a backpack full of ores they had no use for at all. Uranium, Osmium, Aetherium... the list of obscure ores is long. Fortunately, the natural geological conditions of the overworld result in ores being distributed in layers (strata)."
+    },
+    {
+      "type": "spotlight",
+      "title": "The Vanilla Stratum",
+      "item": "minecraft:diamond_ore",
+      "text": "    $(l)Depth: y = 0 - 20$()$(br2)At these depths under normal circumstances you can expect to find only the vanilla ores, such as diamond, gold, and lapis.$(br2)Mining in this stratum will feel very much like mining in Vanilla minecraft."
+    },
+    {
+      "type": "spotlight",
+      "title": "The Modded Stratum",
+      "item": "thermalfoundation:ore:3",
+      "text": "    $(l)Depth: y = 20 - 40$()$(br2)At these depths, in addition to vanilla ores such as iron and gold, you will also find the more common modded ores. Ores such as lead, copper, and silver that are used in a variety of mods occur in this stratum."
+    },
+    {
+      "type": "spotlight",
+      "title": "The Tertiary Stratum",
+      "item": "thermalfoundation:ore:0",
+      "text": "    $(l)Depth: y = 40 - 70$()$(br2)Unlike in vanilla minecraft, the tertiary stratum is an excellent depth to go mining. Ores like copper and tin that are used in abundance by various mods can be found at these depths, as well as iron and coal."
+    },
+    {
+      "type": "spotlight",
+      "title": "The Surface",
+      "item": "minecraft:grass",
+      "text": "In addition to mining below y = 70 there are a variety of resources that are found above ground, including sand ores found on beaches, rare ores found commonly at higher elevations, and some ores that are biome specific. For more information on these ores, read the relevant sections in the guide."
+    }
+  ]
+}

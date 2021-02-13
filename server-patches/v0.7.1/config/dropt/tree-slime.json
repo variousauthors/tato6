@@ -1,0 +1,219 @@
+{
+  "rules": [
+    {
+      "match": {
+        "biomes": {
+          "type": "WHITELIST",
+          "ids": [
+            "minecraft:swampland",
+            "minecraft:mutated_swampland",
+            "biomesoplenty:bayou",
+            "biomesoplenty:fen",
+            "biomesoplenty:lush_swamp"
+          ]
+        },
+        "blocks": {
+          "blocks": [
+            "minecraft:leaves:*",
+            "minecraft:leaves2:*",
+            "quark:variant_leaves:*",
+            "biomesoplenty:leaves_1:*",
+            "biomesoplenty:leaves_4:*",
+            "rustic:leaves:*"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 98
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 2
+            },
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "tconstruct:edible:1",
+              "tconstruct:edible:2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "biomes": {
+          "type": "WHITELIST",
+          "ids": [
+            "biomesoplenty:bog",
+            "biomesoplenty:moor",
+            "biomesoplenty:quagmire"
+          ]
+        },
+        "blocks": {
+          "blocks": [
+            "minecraft:leaves:*",
+            "minecraft:leaves2:*",
+            "quark:variant_leaves:*",
+            "biomesoplenty:leaves_1:*",
+            "biomesoplenty:leaves_4:*",
+            "rustic:leaves:*"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 96
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 4
+            },
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "tconstruct:edible:1",
+              "tconstruct:edible:2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "biomes": {
+          "type": "WHITELIST",
+          "ids": [
+            "biomesoplenty:dead_swamp",
+            "biomesoplenty:ominous_woods"
+          ]
+        },
+        "blocks": {
+          "blocks": [
+            "minecraft:leaves:*",
+            "minecraft:leaves2:*",
+            "quark:variant_leaves:*",
+            "biomesoplenty:leaves_1:*",
+            "biomesoplenty:leaves_4:*",
+            "rustic:leaves:*"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 90
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 10
+            },
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "tconstruct:edible:2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "biomes": {
+          "type": "WHITELIST",
+          "ids": [
+            "minecraft:hell",
+            "biomesoplenty:volcanic_island"
+          ]
+        },
+        "blocks": {
+          "blocks": [
+            "minecraft:leaves:*",
+            "minecraft:leaves2:*",
+            "quark:variant_leaves:*",
+            "biomesoplenty:leaves_1:*",
+            "biomesoplenty:leaves_4:*",
+            "rustic:leaves:*"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 90
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 10
+            },
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "tconstruct:edible:4"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "biomesoplenty:double_plant:10",
+            "biomesoplenty:double_plant:2"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 50
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 50
+            },
+            "silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "tconstruct:edible:4"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

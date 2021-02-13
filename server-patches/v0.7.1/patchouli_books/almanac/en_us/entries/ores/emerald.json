@@ -1,0 +1,14 @@
+{
+  "name": "Emerald",
+  "icon": "minecraft:emerald",
+  "category": "patchouli:ores",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Emerald Ore",
+      "item": "minecraft:emerald_ore",
+      "text": "$(l)Depth: y = 4 - 28$()$(br2)Emerald ore veins occurs in the same distribution as in vanilla minecraft. They can be found in extreme hills biomes, but are not found under other mountainous biomes."
+    }
+  ]
+}

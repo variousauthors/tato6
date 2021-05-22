@@ -1,0 +1,6 @@
+{
+	"name": "Ores",
+	"description": "Ore generation in the overworld.",
+  "sortnum": 1,
+  "icon": "minecraft:iron_ore"
+}

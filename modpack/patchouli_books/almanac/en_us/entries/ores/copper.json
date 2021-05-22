@@ -1,0 +1,11 @@
+{
+  "name": "Copper",
+  "icon": "thermalfoundation:material:128",
+  "category": "patchouli:ores",
+  "pages": [
+      {
+          "type": "text",
+          "text": "All about copper."
+      }
+  ]
+}

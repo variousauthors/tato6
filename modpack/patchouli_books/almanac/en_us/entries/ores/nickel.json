@@ -1,0 +1,33 @@
+{
+  "name": "Nickel",
+  "icon": "thermalfoundation:material:133",
+  "category": "patchouli:ores",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Nickel",
+      "item": "thermalfoundation:ore:5",
+      "text": "$(l)Depth: y = 0 - 128$()$(br2)Nickel ore is never found in nickel ore veins. Nickel occurs in combination with iron, with roughly 10% of the ore in an iron vein being nickel."
+    },
+    {
+      "type": "spotlight",
+      "title": "Meteoric Iron",
+      "item": "embers:ore_nickel",
+      "text": "$(l)Depth: y = 0 - 30$()$(br2)Deep below the mountains of the world, where the dwarves once dwelt, nickel ore can be found in higher concentrations. Under these conditions roughly half of the ore in an iron vein will be nickel."
+    },
+    {
+      "type": "text",
+      "text": "Mountainous biomes where nickel is more common include:$(br)$(li)Extreme Hills$(li)Crag$(li)Alps$(li)Mountain$(li)Overgrown Cliffs$(li)Volcanic Island"
+    },
+    {
+      "type": "spotlight",
+      "title": "Meteoric Iron Geode",
+      "item": "appliedenergistics2:sky_stone_block",
+      "text": "$(l)Depth: y = 50 - 256$()$(br2)Almost all nickel found in the overworld comes from the impact of meteors over the eons. Rarely, and at higher elevations, it is possible to find younger undamaged meteors. An outer shell of sky stone hides an unbelievably amount of iron and nickel."
+    },
+    {
+      "type": "relations",
+      "entries": ["ores/iron"]
+    }
+  ]
+}

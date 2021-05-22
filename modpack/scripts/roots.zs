@@ -67,13 +67,3 @@ val wool = <minecraft:wool>;
 recipes.addShaped("tato6_silk_wool", wool,
  [[silk,silk],
   [silk,silk]]);
-
-/** MISC */
-
-// remove baking roots flour into bread
-furnace.remove(<minecraft:bread>, <roots:flour>);
-// remove plain crafting of bread
-recipes.remove(<minecraft:bread>);
-
-// bake bread in an oven, you monster
-furnace.addRecipe(<minecraft:bread>, <ore:foodDough>, 0.35);

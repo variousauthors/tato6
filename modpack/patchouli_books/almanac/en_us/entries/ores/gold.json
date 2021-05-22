@@ -1,0 +1,25 @@
+{
+  "name": "Gold",
+  "icon": "minecraft:gold_ingot",
+  "category": "patchouli:ores",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Gold",
+      "item": "minecraft:gold_ore",
+      "text": "$(l)Depth: y = 0 - 32$()$(br2)Gold like in vanilla but it occurs with silver mixed in."
+    },
+    {
+      "type": "spotlight",
+      "title": "Mesa Gold",
+      "item": "minecraft:hardened_clay",
+      "text": "$(l)Depth: y = 32 - 80$()$(br2)Gold"
+    },
+    {
+      "type": "spotlight",
+      "title": "Alluvial Gold",
+      "item": "gravelores:gold_gravel_ore",
+      "text": "$(l)Depth: y = 0 - 80$()$(br2)Gold"
+    }
+  ]
+}

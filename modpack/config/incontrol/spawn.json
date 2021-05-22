@@ -11,6 +11,7 @@
   },
   {
     "mob": ["thermalfoundation:basalz"],
+    "spawner": false,
     "result": "deny"
   },
   {
@@ -20,6 +21,7 @@
   },
   {
     "mob": ["thermalfoundation:blitz"],
+    "spawner": false,
     "result": "deny"
   },
   {
@@ -41,15 +43,29 @@
   },
   {
     "mob": ["thermalfoundation:blizz"],
+    "biome": "SnowyTundra",
+    "weather": "rain",
+    "result": "default"
+  },
+  {
+    "mob": ["thermalfoundation:blizz"],
+    "biome": "SnowyTundra",
+    "weather": "thunder",
+    "result": "default"
+  },
+  {
+    "mob": ["thermalfoundation:blizz"],
     "biome": "Ice Plains Spikes",
     "result": "default"
   },
   {
     "mob": ["thermalfoundation:blizz"],
+    "spawner": false,
     "result": "deny"
   },
   {
     "biome": "Ice Plains Spikes",
+    "spawner": false,
     "result": "deny"
   }
 ]

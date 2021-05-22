@@ -1,0 +1,12 @@
+{
+  "name": "Serene Seasons",
+  "icon": "sereneseasons:ss_icon",
+  "category": "patchouli:agriculture",
+  "priority": true,
+  "pages": [
+      {
+          "type": "text",
+          "text": "All about seasons!"
+      }
+  ]
+}

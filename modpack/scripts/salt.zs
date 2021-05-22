@@ -23,6 +23,7 @@ dustSalt.add(<saltmod:salt_pinch>);
 
 // remove mekanism salt
 val itemSalt = <ore:itemSalt>;
+itemSalt.add(<saltmod:salt_pinch>);
 itemSalt.remove(<mekanism:salt>);
 
 val foodSalt = <ore:foodSalt>;

@@ -1,0 +1,13 @@
+{
+  "name": "Coal",
+  "icon": "minecraft:coal",
+  "category": "patchouli:ores",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Coal",
+      "item": "minecraft:coal_ore",
+      "text": "$(l)Depth: y = 0 - 128$()$(br2)Coal ore occurs in the same distribution as it does in vanilla minecraft."
+    }
+  ]
+}

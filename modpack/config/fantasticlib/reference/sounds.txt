@@ -714,6 +714,7 @@ familiarfauna:entity.familiarfauna.pixie.hurt
 familiarfauna:entity.familiarfauna.turkey.ambient
 familiarfauna:entity.familiarfauna.turkey.hurt
 familiarfauna:entity.familiarfauna.turkey.dead
+jaff:item.rod.reel
 nuclearcraft:block.fusion_run
 nuclearcraft:block.turbine_run
 nuclearcraft:player.geiger_tick
@@ -1053,6 +1054,7 @@ mekanism:etc.hydraulic
 mekanism:etc.pop
 mekanism:etc.success
 mekanism:etc.cj
+pantography:pantograph_use
 waddles:adelie.ambient
 waddles:adelie.baby.ambient
 waddles:adelie.death

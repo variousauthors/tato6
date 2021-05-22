@@ -35,8 +35,11 @@ PUBLISH CHECKLIST
 9. in artifacts/technic find the latest modpack ([previous-release-version].zip) 
 10. unzip the archive
 11. apply the patch from server-patch/[release-version]
-12. compress the archive and rename it to [release-version].zip
+12. compress the _contents_ of the folder and rename it to [release-version].zip
 13. upload the new modpack to dropbox (possibly deleting an older modpack to make space)
+14. commit and push a new version to github if you have not
+14. go to https://www.technicpack.net/modpack/edit/1798835
+15. go to versions and copy/paste the latest changes and a link to the changelog in github
 
 9. stop the server
 10. upload the files from server-patch/[release-version]

@@ -28,5 +28,15 @@
       "groupcountmax": 4
     }],
     "biome": "Ice Plains Spikes"
+  },
+  {
+    "dimension": 0,
+    "mobs": [{
+      "mob": "thermalfoundation:blizz",
+      "weight": 1,
+      "groupcountmin": 1,
+      "groupcountmax": 2
+    }],
+    "biome": "SnowyTundra"
   }
 ]

@@ -1,0 +1,11 @@
+{
+  "name": "Silver",
+  "icon": "thermalfoundation:material:130",
+  "category": "patchouli:ores",
+  "pages": [
+      {
+          "type": "text",
+          "text": "All about silver."
+      }
+  ]
+}

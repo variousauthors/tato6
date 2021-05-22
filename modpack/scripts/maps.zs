@@ -1,11 +1,18 @@
+val feather = <ore:feather>;
+val dyeBlack = <ore:dyeBlack>;
+val phial = <thaumcraft:phial>;
+val bottle = <minecraft:glass_bottle>;
+val scribingTools = <thaumcraft:scribing_tools>;
 
-// requiring iron for maps is too oldschool
-recipes.remove(<minecraft:map>);
+recipes.remove(scribingTools);
 
-val writableBook = <minecraft:writable_book>;
+recipes.addShapeless(scribingTools, [phial, dyeBlack, feather]);
+recipes.addShapeless(scribingTools, [bottle, dyeBlack, feather]);
+
+// add another map recipe
 val paper = <minecraft:paper>;
 
 recipes.addShaped("tato6_map", <minecraft:map>,
  [[paper, paper, paper],
- [paper, writableBook, paper],
+ [paper, scribingTools, paper],
  [paper, paper, paper]]);

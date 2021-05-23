@@ -1,0 +1,636 @@
+{
+  "priority": 1000000000000,
+  "enabled": true,
+  "populate": {
+		"iron": {
+      "distribution": "uniform",
+      "details": {
+        "description": "Vanilla Override. Adds nickel. When iron is found with nickel, it is because the deposite is the leftovers of a meteorite.",
+        "frequency": "seems like about 90 iron and 12 nickel"
+      },
+			"generator": {
+        "block": [
+          {
+            "name": "iron_ore",
+            "weight": 90
+          },
+          {
+            "name": "embers:ore_nickel",
+            "weight": 10
+          }
+        ],
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 24,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+    },
+    "osmium": {
+      "enabled": false,
+      "distribution": "uniform",
+      "details": {
+        "description": "This is mekanism's osmium. Need to pick some environment where this will spawn. Maybe cold biomes?",
+        "frequency": ""
+      },
+			"generator": {
+        "block": [
+          {
+            "name": "mekanism:oreblock"
+          }
+        ],
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 12,
+			"min-height": 20,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"gold": {
+      "details": {
+        "description": "Vanilla Override. Adds silver"
+      },
+			"distribution": "uniform",
+			"generator": {
+        "block": [
+          {
+            "name": "gold_ore",
+            "weight": 98
+          },
+          {
+            "name": "embers:ore_silver",
+            "weight": 2
+          }
+        ],
+				"material": "minecraft:stone",
+        "cluster-size": 9
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+    },
+		"mesa_gold": {
+      "description": "Vanilla Override. Adds silver.",
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+        "block": [
+          {
+            "name": "gold_ore",
+            "weight": 98
+          },
+          {
+            "name": "embers:ore_silver",
+            "weight": 2
+          }
+        ],
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 32,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"mesa",
+							"mesa_rock",
+							"mesa_clear_rock",
+							"mutated_mesa",
+							"mutated_mesa_rock",
+							"mutated_mesa_clear_rock"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+    "copper": {
+      "details": {
+        "description": "Modded Iron",
+        "frequency": "roughly 60 copper and 6 silver"
+      },
+			"distribution": "uniform",
+			"generator": {
+        "block": [
+          {
+            "name": "embers:ore_copper",
+            "weight": 90
+          },
+          {
+            "name": "embers:ore_silver",
+            "weight": 10
+          }
+        ],
+				"material": "minecraft:stone",
+        "cluster-size": 9
+			},
+			"cluster-count": 10,
+			"min-height": 20,
+			"max-height": 75,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+    },
+    "lead": {
+      "description": "Modded Gold",
+			"distribution": "uniform",
+			"generator": {
+        "block": [
+          {
+            "name": "embers:ore_lead",
+            "weight": 90
+          },
+          {
+            "name": "embers:ore_silver",
+            "weight": 10
+          }
+        ],
+				"material": "minecraft:stone",
+        "cluster-size": 8
+			},
+			"cluster-count": 4,
+			"min-height": 20,
+			"max-height": 52,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+    },
+    "amethyst": {
+      "description": "Modded Diamond",
+			"distribution": "uniform",
+			"generator": {
+				"block": "mysticalworld:amethyst_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"min-height": 20,
+			"max-height": 36,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+    },
+    "silver_native": {
+      "description": "Native elemental silver is rare, and can only be found in magical biomes, and the dwarven holds of old. It is modded lapis.",
+			"distribution": "gaussian",
+			"generator": {
+				"block": "embers:ore_silver",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 1,
+			"center-height": 26,
+			"spread": 16,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+              "minecraft:roofed_forest",
+              "biomesoplenty:mystic_grove",
+              "biomesoplenty:ominous_woods",
+              "biomesoplenty:sacred_springs",
+              "thaumcraft:magical_forest",
+              "biomesoplenty:crag",
+              "biomesoplenty:alps",
+              "biomesoplenty:alps_foothills",
+              "biomesoplenty:mountain",
+              "biomesoplenty:mountain_foothills"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+    },
+    "rock_salt": {
+      "enabled": true,
+      "description": "Sadly, spawning under water or only in exposed places wasn't working :/ so just spawn whatever",
+      "distribution": "uniform",
+      "generator": {
+        "material": "minecraft:stone",
+        "block": "saltmod:salt_ore",
+        "cluster-size": "8"
+      },
+			"cluster-count": 4,
+			"min-height": 60,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+    },
+    "rock_salt_exposed": {
+      "enabled": false,
+      "description": "Rock salt that spanws near the surface is evidence of ancient oceans. Occurs in the 60 - 70 range only.",
+      "distribution": "uniform",
+			"generator": {
+        "block": "saltmod:salt_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 10,
+			"min-height": 60,
+			"max-height": 70,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+    },
+    "beaches": {
+      "enabled": true,
+      "description": "Gems can be found kicking around in sandy beaches.",
+      "distribution": "uniform",
+      "generator": [{
+        "type": "cluster",
+        "block": "osv:thaumcraft_amber_ore_sand",
+				"material": "minecraft:sand",
+        "cluster-size": 4,
+        "weight": 25
+      }, {
+        "type": "cluster",
+        "block": "osv:appliedenergistics2_quartz_ore_sand",
+				"material": "minecraft:sand",
+				"cluster-size": 4,
+        "weight": 25
+      }, {
+        "type": "cluster",
+        "block": "osv:bewitchment_garnet_ore_sand",
+				"cluster-size": 4,
+        "weight": 25
+      }, {
+        "type": "cluster",
+        "block": "osv:bewitchment_opal_ore_sand",
+				"cluster-size": 4,
+        "weight": 25
+      }],
+			"cluster-count": 6,
+			"min-height": 54,
+			"max-height": 74,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+              "beaches"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+    },
+    "riverbed": {
+      "enabled": true,
+      "description": "Gems can be found burried in the sandy river beds.",
+      "distribution": "uniform",
+      "generator": [{
+        "type": "cluster",
+        "block": "osv:thaumcraft_amber_ore_sand",
+				"material": "minecraft:sand",
+        "cluster-size": 4,
+        "weight": 25
+      }, {
+        "type": "cluster",
+        "block": "osv:appliedenergistics2_quartz_ore_sand",
+				"material": "minecraft:sand",
+				"cluster-size": 4,
+        "weight": 25
+      }, {
+        "type": "cluster",
+        "block": "osv:bewitchment_garnet_ore_sand",
+				"cluster-size": 4,
+        "weight": 25
+      }, {
+        "type": "cluster",
+        "block": "osv:bewitchment_opal_ore_sand",
+				"cluster-size": 4,
+        "weight": 25
+      }],
+			"cluster-count": 12,
+			"min-height": 54,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"river"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+    },
+    "meteoric_iron_vein": {
+      "enabled": true,
+      "description": "In mountainous biomes, iron and nickel are sometimes found together. Added it for the dwarves.",
+			"distribution": "uniform",
+			"generator": {
+        "block": [
+          {
+            "name": "iron_ore",
+            "weight": 50
+          },
+          {
+            "name": "embers:ore_nickel",
+            "weight": 50
+          }
+        ],
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 4,
+			"min-height": 0,
+			"max-height": 30,
+			"retrogen": false,
+			"biome": {
+        "restriction": "whitelist",
+        "description": "Biomes that are not just high but actually rough, like rocky not flat. Dwarven, if you will.",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"extreme_hills",
+							"smaller_extreme_hills",
+							"extreme_hills_with_trees",
+              "mutated_extreme_hills",
+							"mutated_extreme_hills_with_trees",
+              "biomesoplenty:crag",
+              "biomesoplenty:alps",
+              "biomesoplenty:alps_foothills",
+              "biomesoplenty:mountain",
+              "biomesoplenty:mountain_foothills",
+              "biomesoplenty:overgrown_cliffs",
+              "biomesoplenty:volcanic_island",
+              "mutated_extreme_hills",
+              "mutated_taiga"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+    },
+    "meteoric_iron_geode": {
+      "enabled": true,
+      "description": "Meteorites that generate just below the surface, they are surrounded by a shell of some kind of cool rock and contain veins of meteoric iron. The basalt crust is just a temporary measure, to differentiate from stone.",
+      "distribution": "uniform",
+      "generator": {
+        "type": "geode",
+        "material": ["minecraft:stone", "minecraft:dirt", "minecraft:gravel", "minecraft:sand"],
+        "block": [
+          {
+            "name": "stone",
+            "weight": 20
+          },
+          {
+            "name": "iron_ore",
+            "weight": 40
+          },
+          {
+            "name": "embers:ore_nickel",
+            "weight": 40
+          }
+        ],
+        "crust": "appliedenergistics2:sky_stone_block"
+      },
+      "cluster-count": 1,
+      "chunk-chance": 8,
+			"min-height": 50,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+    },
+    "bauxite": {
+      "enabled": true,
+      "description": "Found in warm climates near the surface, it can be smelted into aluminium. I'd like to restrict it to deserts, savannah, outback, that kind of wide flat biomes but I will need a specific list.",
+			"distribution": "uniform",
+			"generator": {
+        "block": {
+          "name": "embers:ore_aluminum",
+          "weight": 100
+        },
+				"material": ["minecraft:stone", "minecraft:sandstone"],
+				"cluster-size": 8
+			},
+			"cluster-count": 16,
+			"min-height": 40,
+			"max-height": 70,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+            "type": "id",
+            "note": "The coast of brazil, and deserts in india... all over the place! I've chosen mostly flat warm biomes, and not their hills counterparts to encourage open pit mining.",
+						"entry": [
+              "desert",
+              "jungle",
+              "biomesoplenty:savanna",
+              "biomesoplenty:brushlands",
+              "biomesoplenty:outback",
+              "biomesoplenty:chapparal",
+              "biomesoplenty:lush_desert",
+              "biomesoplenty:tropical_rainforest"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+    },
+    "alluvial_gravel_2": {
+      "enabled": false,
+      "description": "lets try having it spawn in biomesoplenty:gravel_beach too"
+    },
+		"alluvial_gravel": {
+      "enabled": true,
+      "description": "Tin can be found in ancient stream beds, in deposites of sand clay or gravel. See 'placer mining' in wikipedia. Added gold to this for fun, and then silver to increase the available silver :D",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{ 
+          "name": "gravel",
+          "weight": 1600
+        }, {
+          "name": "gravelores:tin_gravel_ore",
+          "weight": 80
+        }, {
+          "name": "gravelores:gold_gravel_ore",
+          "weight": 2
+        }, {
+          "name": "gravelores:aluminum_gravel_ore",
+          "weight": 4
+        }, {
+          "name": "gravelores:silver_gravel_ore",
+          "weight": 4
+        }],
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+      "cluster-count": 16,
+      "note-min-height": "might consider dropping it to 0 since then any gravel you encounter will have nice stuff in it. This still would not interfere with vanilla mining.",
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"ancient_debris_low": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": "futuremc:ancient_debris",
+				"material": "minecraft:netherrack",
+				"cluster-size": 7
+			},
+			"cluster-count": 1,
+			"center-height": 15,
+			"spread": 7,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		"ancient_debris_high": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "futuremc:ancient_debris",
+				"material": "minecraft:netherrack",
+				"cluster-size": 3
+			},
+			"cluster-count": 1,
+			"min-height": 8,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+  }
+}

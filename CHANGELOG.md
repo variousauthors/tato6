@@ -7,8 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Added
+ - Advanced Rocketry
+ - Created a custom moon for your space exploring pleasure
+
+## Intersticial
+
+### Added
+ - MoreTweaker for tweaking bewitchment
+ - Flat Colored Blocks for high level chiselling
+ - Future MC, see the changes below for a list of what features are included
+ - Canny Composter, because future mc's composter is not ready for modded mc
+
 ### Changes
  - upgrade bewitchment from 0.21.10 to 0.21.11
+ - tweaked bewitchment salt back in as "pure salt"
+ - added a round of microblocks for bewitchment and bop
+ - fixed ghasts spawning in the end
+ - botania alchemy and astral sorcery twighlight transformation can be used to make marble
+ - from future mc
+   - remove wood blocks (quark adds them)
+   - remove soul soil (no way to obtain) and soul lantern/torch
+   - disable fletcher
+   - disable buzzy bee update
+   - disable flowers and walls and trapdoors and fish because we already have them
+   - disable trident because it cannot be obtained
+   - disable nautilus shell because it has no use without conduit power
+   - disable composter in favour of canny composter
 
 ## [0.7.1] - 2021-03-12
 

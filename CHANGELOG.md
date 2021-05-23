@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - Advanced Rocketry
  - Created a custom moon for your space exploring pleasure
 
-## Intersticial
+## [v0.8.0] - 2021-05-22
 
 ### Added
  - MoreTweaker for tweaking bewitchment

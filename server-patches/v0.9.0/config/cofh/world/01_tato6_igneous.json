@@ -1,0 +1,198 @@
+{
+  "priority": 1000000000000,
+  "enabled": true,
+  "populate": {
+    "igneous_granite_high": {
+      "enabled": true,
+      "description": "Between 50 and 80 the ores spawn less.",
+			"distribution": "uniform",
+			"generator": [{
+				"block": [{
+					"name": "stone",
+					"properties": {
+						"variant": "granite"
+          },
+          "weight": 300
+				}],
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			}],
+			"cluster-count": 4,
+			"min-height": 50,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1,
+          100
+				]
+			}
+    },
+    "igneous_andesite_high": {
+      "enabled": true,
+      "description": "Between 50 and 80 the ores spawn less.",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "stone",
+					"properties": {
+						"variant": "andesite"
+          },
+          "weight": 300
+				}],
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 4,
+			"min-height": 50,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1,
+          100
+				]
+			}
+    },
+    "igneous_diorite_high": {
+      "enabled": true,
+      "description": "Between 50 and 80 the ores spawn less.",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "stone",
+					"properties": {
+						"variant": "diorite"
+          },
+          "weight": 300
+				}],
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 4,
+			"min-height": 50,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1,
+          100
+				]
+			}
+    },
+    "igneous_granite_low": {
+      "enabled": true,
+      "description": "Spawns from 0 - 50 and is rich in quartz.",
+			"distribution": "uniform",
+			"generator": [{
+				"block": [{
+					"name": "stone",
+					"properties": {
+						"variant": "granite"
+          },
+          "weight": 8000
+				}, {
+					"name": "osv:appliedenergistics2_quartz_ore_1",
+          "weight": 16
+        }, {
+					"name": "osv:mekanism_oreblock_1",
+          "weight": 80
+        }],
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			}],
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 50,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1,
+          100
+				]
+			}
+    },
+    "igneous_andesite_low": {
+      "enabled": true,
+      "description": "Spawns from 0 - 50 and is rich in quartz.",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "stone",
+					"properties": {
+						"variant": "andesite"
+          },
+          "weight": 8000
+				}, {
+					"name": "osv:appliedenergistics2_quartz_ore_5",
+          "weight": 16
+        }, {
+					"name": "osv:mekanism_oreblock_5",
+          "weight": 80
+        }],
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 50,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1,
+          100
+				]
+			}
+    },
+    "igneous_diorite_low": {
+      "enabled": true,
+      "description": "Spawns from 0 - 50 and is rich in quartz.",
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "stone",
+					"properties": {
+						"variant": "diorite"
+          },
+          "weight": 8000
+				}, {
+					"name": "osv:appliedenergistics2_quartz_ore_3",
+          "weight": 16
+        }, {
+					"name": "osv:mekanism_oreblock_3",
+          "weight": 80
+        }],
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 50,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1,
+          100
+				]
+			}
+    }
+  }
+}

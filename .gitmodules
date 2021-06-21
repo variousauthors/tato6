@@ -1,0 +1,3 @@
+[submodule "tato6-resources"]
+	path = tato6-resources
+	url = git@github.com:doolydooly/tato6-resources.git

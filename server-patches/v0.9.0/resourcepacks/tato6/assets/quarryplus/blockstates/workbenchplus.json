@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "normal": {"model": "quarryplus:workbenchplus"},
+    "inventory": {"model": "quarryplus:workbenchplus"}
+  }
+}

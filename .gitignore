@@ -5,3 +5,5 @@ node_modules/
 dist.zip
 artifacts/
 server-patches/*/mods
+.DS_Store
+**/*/.DS_Store

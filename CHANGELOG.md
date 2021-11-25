@@ -8,13 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 
 ### Added
- - custom resource-pack for katrien server
+ - custom resource-pack for katrien server: all livingwood, gearbox, wooden axle, and advanced crafting table
 
 ### Changed
  - expanded the microblocks config
  - chicken chunks away timeout set to 30 minutes
  - chisels and bits stack size set to 2048
  - set spanwpoint at anytime by clicking on a bed
+ - guide to the overworld recipe accepts any vanilla sapling
+ - various machines now can make wood ash from any sapling
+ - witches oven can make wood ash from rustic saplings
+ - gearbox now requires less iron to craft
+ - enabled aetherium gears for maximum revolution
 
 ## [v0.9.0]
 

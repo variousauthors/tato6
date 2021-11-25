@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 
 ### Added
+ - custom resource-pack for katrien server
+
+### Changed
+ - expanded the microblocks config
+ - chicken chunks away timeout set to 30 minutes
+ - chisels and bits stack size set to 2048
+ - set spanwpoint at anytime by clicking on a bed
+
+## [v0.9.0]
+
+### Added
  - Advanced Rocketry
  - Created a custom moon for your space exploring pleasure
 

@@ -20,6 +20,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - witches oven can make wood ash from rustic saplings
  - gearbox now requires less iron to craft
  - enabled aetherium gears for maximum revolution
+ - juniper from bewitchment can be used in pam's recipies
+ - pam's fruits can be used in growthcraft cheese
+ - pam's grinder now supports animania and familiar fauna meats
+ - growthcraft heatsources now include lit furnace and witch's oven (they are slower than lava/nitor)
+ - fluxed electrum, aluminum, and speckled gears all work in gearboxes now
+ - factorizer is no longer confused by charcoal
 
 ## [v0.9.0]
 

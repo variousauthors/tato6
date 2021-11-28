@@ -26,6 +26,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - growthcraft heatsources now include lit furnace and witch's oven (they are slower than lava/nitor)
  - fluxed electrum, aluminum, and speckled gears all work in gearboxes now
  - factorizer is no longer confused by charcoal
+ - overgrown stone can now be crafted from stone by starlight infusion
+ - slime saplings of various kinds now occur as very rare drops from leaves wherever those leaves also drop slime (hell, swamps, etc...)
+ - hummus is crafted from chickpeas, not beans
+ - bibliocraft framing saw and framing sheets can be crafted with any planks
+ - snails sometimes drop purple slime if killed by a player
+ - (BETA) creepers only spawn below y = 63 (ie "underground"). This is just a test, to see how it feels.
+
+### Removed
+ - patreon pie can no longer be crafted or found in the JEI because it is dumb
+ - market can no longer be crafted or found in the JEI because it conflicts with the theme of exploration
+ - remotes from simple storage network because if you need remotes you should upgrade to AE2
 
 ## [v0.9.0]
 

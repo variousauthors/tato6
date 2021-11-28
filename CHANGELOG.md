@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 
 ### Added
+ - Advanced Rocketry
+ - Created a custom moon for your space exploring pleasure
+
+## [v0.8.1] - 2021-11-28
+
+### Added
  - custom resource-pack for katrien server: all livingwood, gearbox, wooden axle, and advanced crafting table
 
 ### Changed
@@ -38,11 +44,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - market can no longer be crafted or found in the JEI because it conflicts with the theme of exploration
  - remotes from simple storage network because if you need remotes you should upgrade to AE2
 
-## [v0.9.0]
-
-### Added
- - Advanced Rocketry
- - Created a custom moon for your space exploring pleasure
 
 ## [v0.8.0] - 2021-05-22
 

@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - Advanced Rocketry
  - Created a custom moon for your space exploring pleasure
 
+## [v0.8.2] - 2021-11-28
+
+### Removed
+ - Oops! I accidentally added options.txt to the modpack, which is not correct. Removing it in this patch.
+
 ## [v0.8.1] - 2021-11-28
 
 ### Added

@@ -1,0 +1,35 @@
+{
+  "name": "Quartz (Certus)",
+  "icon": "appliedenergistics2:material:0",
+  "category": "patchouli:ores",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Certus quartz cannot be found in stone as it can in other worlds. Instead it occurs in small veins that permeate igneous rock."
+    },
+    {
+      "type": "spotlight",
+      "title": "Certus Quartz Ore",
+      "item": "osv:appliedenergistics2_quartz_ore_1",
+      "text": "$(l)Depth: y = 0 - 50$()$(br2)Small veins of certus quartz occur in igneous stone such as granite, diorite, and andesite anywhere in the vanilla and modded strata. The occurrence of these veins is reasonably common: roughly 0.2% of igneous stone will contain certus quartz."
+    },
+    {
+      "type": "spotlight",
+      "title": "Sand Ore",
+      "item": "osv:appliedenergistics2_quartz_ore_sand",
+      "text": "$(l)Depth: y = 54 - 74$()$(br2)In addition to being found in igneous stone formations, it is also possible to pick up bits of certus quartz while exploring the beaches and rivers of the overworld. While uncommon, this can still be a good source of quartz for tools, etc..."
+    },
+    {
+      "type": "crafting",
+      "title": "Certus Quartz Toolz",
+      "recipe": "appliedenergistics2:tools/certus_quartz_pickaxe",
+      "text": "Certus quartz is suitable for making tools. Such tools are comparable in quality to iron but with lower durability."
+    },
+    {
+      "type": "crafting",
+      "recipe": "appliedenergistics2:misc/grindstone",
+      "text": "A beloved tool of the savvy miner, the simple manual crank quartz grindstone can be used to double ore output without needing a dynamo.$(br2)Don't forget to craft the crank!"
+    }
+  ]
+}

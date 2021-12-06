@@ -1,0 +1,21 @@
+{
+  "name": "Overview",
+  "icon": "minecraft:paper",
+  "category": "patchouli:ores",
+  "sortnum": 0,
+  "priority": true,
+  "pages": [
+      {
+          "type": "text",
+          "text": "The overworld is famously rich in minerals. It is so rich that at times it can feel overwhelming.$(br2)Oregen in this modpack has been tweaked so that players will only tend to find minerals they can use. This is achieved by tucking mod-specific minerals away using a variety of technique, such as sand ores and biome specific ores."
+      },
+      {
+          "type": "text",
+          "text": "As a result, if you do not check this guide first before going off in search of wealth you may not find what you are looking for. As an example, the nuclearcraft ores only generate under mountainous biomes. If you dig down to y = 11 and mine blindly you will never find uranium.$(br2)Each section of this guide details a particular mineral and how it is distributed in the world."
+      },
+      {
+          "type": "text",
+          "text": "In addition, whenever a mod requires a particular mineral there will be a link to the relevant page in the guide at the back of the chapter covering that mod."
+      }
+  ]
+}

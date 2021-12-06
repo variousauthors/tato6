@@ -15,12 +15,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - more mystcraft (because there was not enough already)
  - pages adds even more mystcraft
  - linking-tweaks adds some additional mystcraft configuration options
+ - added content tweaker and zenutils for additional modpackery
+ - what looms ahead for fancy 1.13+ loom mystcraft integration
 
 ### Changed
  - crushing tub recipe for ink bush seeds to mystcraft ink
  - lightwell recipe for ender biotite to mystcraft ink
  - tc crucible recipe to fill a bucket with mystcraft ink
  - changed mystcraft ink to behave more like a normal fluid so you can bucket it up
+ - upgraded crafttweaker for zenutils support
+
+### Removed
+ - looms from futuremc conflict with looms from what looms ahead
 
 ## [v0.9.0]
 

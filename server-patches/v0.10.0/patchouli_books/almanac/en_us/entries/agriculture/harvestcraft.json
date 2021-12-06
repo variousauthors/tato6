@@ -1,0 +1,11 @@
+{
+  "name": "Harvestcraft",
+  "icon": "harvestcraft:barleyitem",
+  "category": "patchouli:agriculture",
+  "pages": [
+      {
+          "type": "text",
+          "text": "Overview of Pam's Harvestcraft"
+      }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Redstone",
+  "icon": "minecraft:redstone",
+  "category": "patchouli:ores",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Redstone Ore",
+      "item": "minecraft:redstone_ore",
+      "text": "$(l)Depth: y = 0 - 16$()$(br2)Redstone ore veins occurs in the same distribution as in vanilla minecraft."
+    }
+  ]
+}

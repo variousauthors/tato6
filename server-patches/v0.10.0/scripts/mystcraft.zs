@@ -8,6 +8,9 @@ val bucketOfInk = <forge:bucketfilled>.withTag({FluidName: "myst.ink.black", Amo
 val book = <minecraft:book>;
 val inkBottle = <mystcraft:vial>;
 
+// lol ink should be black dye
+<ore:dyeBlack>.add(inkBottle);
+
 /** craft the guidebook with ink + book */
 recipes.remove(linkingThroughTheAges);
 recipes.addShapeless('tato6-linking-through-the-ages', linkingThroughTheAges, [book, inkBottle]);
@@ -33,6 +36,7 @@ mods.thaumcraft.Crucible.registerRecipe("tato6-crucible-mystcraft-ink", "", buck
 returns a list (it just isn't a @zenmethod). It feeeeeels like it would not be hard to
 make that a zenmethod... */
 
+/*
 function pageName (name as string) as string {
   return "Page (" + name + " Block)";
 }
@@ -255,3 +259,4 @@ function pageName (name as string) as string {
 <mystcraft:page>.withTag({symbol: "animania:modmat_milk_jersey_0"}).displayName = pageName("");
 <mystcraft:page>.withTag({symbol: "animania:modmat_milk_sheep_0"}).displayName = pageName("");
 <mystcraft:page>.withTag({symbol: "animania:modmat_slop_0"}).displayName = pageName("");
+*/

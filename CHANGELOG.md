@@ -5,7 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## [v0.10.0]
+
+### Added
+ - Mystcraft
+ - JEI support for mystcraft
+ - mystcraft-info adds additional tooltips for each page
+ - ltta adds a guidebook for mystcraft
+ - more mystcraft (because there was not enough already)
+ - pages adds even more mystcraft
+ - linking-tweaks adds some additional mystcraft configuration options
+
+### Changed
+ - crushing tub recipe for ink bush seeds to mystcraft ink
+ - lightwell recipe for ender biotite to mystcraft ink
+ - tc crucible recipe to fill a bucket with mystcraft ink
+ - changed mystcraft ink to behave more like a normal fluid so you can bucket it up
+
+## [v0.9.0]
 
 ### Added
  - Advanced Rocketry

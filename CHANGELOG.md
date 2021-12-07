@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - tc crucible recipe to fill a bucket with mystcraft ink
  - changed mystcraft ink to behave more like a normal fluid so you can bucket it up
  - upgraded crafttweaker for zenutils support
+ - added the mystcraft section to the almanac
 
 ### Removed
  - looms from futuremc conflict with looms from what looms ahead

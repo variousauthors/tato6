@@ -1,0 +1,60 @@
+{
+  "name": "The Art",
+  "icon": "mystcraft:linkbook",
+  "category": "patchouli:magic",
+  "pages": [
+      {
+          "type": "text",
+          "text": "  The Art is among the most dangerous and potentially the most rewarding forms of magic. It is deceptively simple: you will use a special black ink to write symbols into books according to a strict syntax. These books will describe worlds, and once they have been described they can be visited. In these worlds, 'ages', as they are called, you will see things you did not"
+      },
+      {
+          "type": "text",
+          "text": "believe possible. You will laugh, and you will tremble. The more ages you visit, the greater will be your mastery of The Art. You will learn to describe precisely the kinds of ages you want to see, and you will be tempted to believe that you are creating them.$(br2)Welcome to Mystcraft."
+      },
+      {
+          "type": "spotlight",
+          "item": "chisel:factory:6",
+          "title": "A Caution",
+          "text": "  Mystcraft sits next to Thaumcraft as one of the most potentially destructive mods in this pack. You can become trapped in an age $(o)forever$() with no way to return to the overworld, and no way to survive. You can literally be stuck, dying over and over, with no way to escape. Practitioners of the art"
+      },
+      {
+          "type": "text",
+          "text": "have told tales of being stranded on cobblestone platforms, surrounded by ghasts, in a void. If you die in an age, you will respawn in that age.$(br2)  I like to say that linking books are the only way back to the overworld. While this is not exactly true, you should treat it as true. The more comfortable you get with mystcraft the more likely you wll be to make a tiny mistake. Please be careful."
+      },
+      {
+          "type": "spotlight",
+          "item": "mystcraft:vial",
+          "title": "Ink Vial",
+          "text": "  Before you can visit any ages, before you can even craft the mod book, you must make ink. Common inks will not suffice for writing ages."
+      },
+      {
+          "type": "spotlight",
+          "item": "betternether:ink_bush_seed",
+          "title": "Ink Bush",
+          "text": "  Found only in the nether, the seed of the ink bush is well known for its uses in ink making. Normally cooked into an ink for writing, if it is instead squeezed raw in a $(item)crushing tub$() it yields a small amount of ink suitable for The Art."
+      },
+      {
+          "type": "spotlight",
+          "item": "quark:biotite",
+          "title": "Ender Biotite",
+          "text": "  This mineral, which grows only in endstone, can be used to condense ink from starlight in a $(item)lightwell$(). The mineral is quite resilient: one piece of biotite will produce quite a lot of ink if the lightwell is continuously emptied."
+      },
+      {
+          "type": "spotlight",
+          "item": "forge:bucketfilled{FluidName: 'myst.ink.black', Amount: 1000}",
+          "title": "Hedge Alchemy",
+          "text": "  Similar to the way a hedge alchemist can conjure lava from base terra and ignis in a $(item)crucible$(), one can also fill a bucket with the strange ink called for by The Art. This process involves base $(item)aqua$() and a little bit of $(item)alienis$(), the eldritch essence."
+      },
+      {
+          "type": "text",
+          "title": "Into the Myst",
+          "text": "  Once you have acquired a supply of ink, it will be time to begin your journey by crafting the guidebook. $(item)Linking through the Ages$() is a very thorough guide to The Art. It is unlikely that you will ever need to tab out to a wiki as long as you have this book in your possession."
+      },
+      {
+          "type": "crafting",
+          "recipe": "crafttweaker:tato6-linking-through-the-ages",
+          "title": " ",
+          "text": "  Did you not take my warning seriously?"
+      }
+  ]
+}

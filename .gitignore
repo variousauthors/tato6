@@ -7,3 +7,4 @@ dist.zip
 artifacts/
 server-patches/*/mods
 server-patches/*/.DS_Store
+server-patches/*/resourcepacks

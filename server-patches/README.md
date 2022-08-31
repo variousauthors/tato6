@@ -20,7 +20,7 @@ BUILD CHECKLIST (multimc)
 ---------------------------
 
 1. copy any mods you added from the current instance to `unreleased/mods` and `modpack/mods`
-2. run the command `cp -r tato6-resources/tato6/ server-patches/v0.9.0/resourcepacks/tato6` to update the resourcepack
+2. run the command `cp -r tato6-resources/tato6/ server-patches/<VERSION>/resourcepacks/tato6` to update the resourcepack
 3. rename unreleased to [release-version] and update the changelog
 4. zip the [release-version] folder and name it patch-[release-version]
 5. export the "unreleased" instance from multimc as a zip file named overworld-[release-version].zip
@@ -34,7 +34,8 @@ PUBLISH CHECKLIST
 9. unzip the archive
 10. apply the patch from server-patch/[release-version]
 11. compress the _contents_ of the folder and rename it to [release-version].zip
-12. upload the new modpack to dropbox (possibly deleting an older modpack to make space)
-13. commit and push a new version to github if you have not
-14. go to https://www.technicpack.net/modpack/edit/1798835/main
-15. go to versions and copy/paste the latest changes and a link to the changelog in github
+12. manually apply the patch to your current install of [previous-release-version] in technic and test it
+13. upload the new modpack to dropbox (possibly deleting an older modpack to make space)
+14. commit and push a new version to github if you have not
+15. go to https://www.technicpack.net/modpack/edit/1798835/main
+16. go to versions and copy/paste the latest changes and a link to the changelog in github

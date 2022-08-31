@@ -5,6 +5,36 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [unreleased]
+
+### Changed
+ - update roots another little bit
+ - added thaumcraft/roots recipes for the thaumcraft plants
+
+ - upgraded Roots to v3.1.0
+ - upgraded MysticLib
+ - upgraded Mystical World
+
+## [0.10.2]
+
+Note: it seems like I hotfixed most of these changes directly to the server and said "I'll just push it later" and never did. So I am trying to work out what changed in the mysterious 0.10.2 undocumented update and add it here.
+
+### Changed
+ - the nether is all about ghasts now
+ - removed or toned down some less flavorful nether mobs
+ - update roots a little bit (to 3.0.25)
+   - this is the first step in the 3.1 migration path
+ - update ZenUtils to 1.9.8 (officially)
+ - add another round of micro-blocks
+ - updated mystcraft/symbols.cfg to remove duplicate growthcraft fluids and BoP biomes (they don't decorate correctly in mystcraft dimensions)
+   - note, you have to do something weird here... like start the server and stop it a few times? Look up the weirdness in the BoP/mystcraft fix mod
+ - small fix to the mystcraft-ink script to fix a null pointer exception when clicking the air
+
+## [v0.10.1]
+
+### Changed
+ - oops! I left some duplicate mods in there when I upgraded them ;)
+
 ## [v0.10.0]
 
 ### Added

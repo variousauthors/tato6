@@ -11,9 +11,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - update roots another little bit
  - added thaumcraft/roots recipes for the thaumcraft plants
 
- - upgraded Roots to v3.1.0
+## [0.10.3]
+
+### Changes
+ - upgraded Roots to v3.0.35
  - upgraded MysticLib
  - upgraded Mystical World
+ - unified plate crafting to use the hammer properly
+ - add dough -> bread to smoker and campfire
+ - removed some errant flour -> bread recipes
+ - removed Mekanism holiday greeting
+ - add a variety of plants to the composter
+ - set embers book to be fully unlocked as a work-around to progress resetting when you restart the client
+   - @see https://github.com/DaedalusGame/EmbersRekindled/issues/162
+ - added some foods that didn't have ore dict to ore dictionary entries
+ - 
 
 ## [0.10.2]
 
@@ -22,8 +34,6 @@ Note: it seems like I hotfixed most of these changes directly to the server and 
 ### Changed
  - the nether is all about ghasts now
  - removed or toned down some less flavorful nether mobs
- - update roots a little bit (to 3.0.25)
-   - this is the first step in the 3.1 migration path
  - update ZenUtils to 1.9.8 (officially)
  - add another round of micro-blocks
  - updated mystcraft/symbols.cfg to remove duplicate growthcraft fluids and BoP biomes (they don't decorate correctly in mystcraft dimensions)

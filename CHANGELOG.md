@@ -25,7 +25,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - set embers book to be fully unlocked as a work-around to progress resetting when you restart the client
    - @see https://github.com/DaedalusGame/EmbersRekindled/issues/162
  - added some foods that didn't have ore dict to ore dictionary entries
- - 
+ - stripping a log with an axe also yields roots bark
+ - sawdust recipe that uses a bucket of water is better
+ - bark has more general uses, mainly as compost and sawdust
+   - added bark -> sawdust recipes to mekanism, thermal, and quern
+   - toned down the mekanism sawdust path, it now yields ~18 sawdust instead of ~36
+ - compost is more versatile, used in some of the same recipes as bone meal
+ - you can evaporate water in an evaporating basin to get salt
+   - evaporating sea water or brine yield more salt
+ - saltmod evaporator can now store up to 3 buckets of water at a time yaay
+ - unfired clay bucket can now be crafter (resolved a recipe conflict)
 
 ## [0.10.2]
 

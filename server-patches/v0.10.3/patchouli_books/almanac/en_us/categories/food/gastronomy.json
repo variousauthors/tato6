@@ -1,0 +1,7 @@
+{
+  "name": "Gastronomy",
+  "description": "Make delicious food",
+  "sortnum": 2,
+  "parent": "patchouli:food",
+	"icon": "saltmod:salt"
+}

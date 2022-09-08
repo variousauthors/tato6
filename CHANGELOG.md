@@ -26,15 +26,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
    - @see https://github.com/DaedalusGame/EmbersRekindled/issues/162
  - added some foods that didn't have ore dict to ore dictionary entries
  - stripping a log with an axe also yields roots bark
- - sawdust recipe that uses a bucket of water is better
+ - sawdust to paper recipe that uses a bucket of water is the better one now
+   - also added an equivalent recipe to the fluid transposer
  - bark has more general uses, mainly as compost and sawdust
    - added bark -> sawdust recipes to mekanism, thermal, and quern
    - toned down the mekanism sawdust path, it now yields ~18 sawdust instead of ~36
  - compost is more versatile, used in some of the same recipes as bone meal
+ - bucketing up water from below sea level gives you sea water, which is useless as water but great for salt
+ - adjusted the ocean and beach biomes' water color to be distinct (greener)
  - you can evaporate water in an evaporating basin to get salt
    - evaporating sea water or brine yield more salt
+   - machines that create brine have been tweaked to go from pinch -> mb
  - saltmod evaporator can now store up to 3 buckets of water at a time yaay
  - unfired clay bucket can now be crafter (resolved a recipe conflict)
+ - campfire correctly handles pam's foods
+ - biomesoplenty seaweed can now be used as a source of salt
+ - tweaked salty mod's salt crystal to drop more pinches, and grow faster
+   - it is better than the evaporator, but can't be "automated" (as easily?)
 
 ## [0.10.2]
 

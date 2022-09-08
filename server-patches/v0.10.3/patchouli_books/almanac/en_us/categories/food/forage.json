@@ -1,0 +1,7 @@
+{
+  "name": "Forage",
+  "description": "You gotta forage",
+  "sortnum": 0,
+  "parent": "patchouli:food",
+	"icon": "harvestcraft:cranberryitem"
+}

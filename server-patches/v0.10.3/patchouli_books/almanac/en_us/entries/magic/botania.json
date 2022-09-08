@@ -1,0 +1,29 @@
+{
+  "name": "Botania",
+  "icon": "botania:twigwand",
+  "category": "patchouli:magic",
+  "pages": [
+      {
+          "type": "text",
+          "text": "Overview of Botania"
+      },
+      {
+          "type": "crafting",
+          "recipe": "botania:lexicon",
+          "title": "Lexica Botania",
+          "text": "Make this book to start doing the mod"
+      },
+      {
+          "type": "spotlight",
+          "item": "botania:flower",
+          "title": "Mystical Flowers",
+          "text": "They don't generate in the overworld, use floral fertilizer."
+      },
+      {
+          "type": "crafting",
+          "recipe": "botania:fertilizer_dye",
+          "title": "Floral Fertilizer",
+          "text": "Here's how you craft it, so you don't have to go hunting around. It won't work in winter."
+      }
+  ]
+}

@@ -8,6 +8,7 @@ import crafttweaker.liquid.ILiquidStack;
 
 val buckets = [<minecraft:bucket>, <ceramics:clay_bucket>] as IItemStack[];
 val water = <fluid:water>;
+val seaLevel = 62;
 
 // debarking trees with an amethyst axe should yield barks
 events.onPlayerFillBucket(function (event as crafttweaker.event.PlayerFillBucketEvent) {
@@ -34,8 +35,7 @@ events.onPlayerFillBucket(function (event as crafttweaker.event.PlayerFillBucket
   val types = event.world.getBiome(event.position).types;
 
   for type in types {
-    print(type.name);
-    if (type.name == 'OCEAN' || type.name == 'BEACH') {
+    if ((type.name == 'OCEAN' || type.name == 'BEACH') && event.position.y <= seaLevel) {
       event.world.setBlockState(<blockstate:minecraft:air>, event.position);
       event.result = <forge:bucketfilled>.withTag({FluidName: "sea_water", Amount: 1000});
     }

@@ -1,0 +1,13 @@
+{
+  "name": "Gastronomy",
+  "icon": "saltmod:salt",
+  "category": "patchouli:food",
+  "sortnum": 4,
+  "priority": true,
+  "pages": [
+      {
+          "type": "text",
+          "text": "Add salt to things"
+      }
+  ]
+}

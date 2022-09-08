@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - update roots another little bit
  - added thaumcraft/roots recipes for the thaumcraft plants
 
-## [0.10.3]
+## [0.11.0]
 
 ### Changes
  - upgraded Roots to v3.0.35

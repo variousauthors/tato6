@@ -1,6 +1,6 @@
 {
 	"name": "Ores",
-	"description": "Ore generation in the overworld.",
+	"description": "This section of the guide covers the mineral resources of the overworld. For resources found in the most distant corners of reality, such as the nether or the end, consult the relevant sections of the guide.",
   "sortnum": 1,
   "icon": "minecraft:iron_ore"
 }

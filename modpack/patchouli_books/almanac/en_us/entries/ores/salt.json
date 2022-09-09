@@ -1,0 +1,20 @@
+{
+  "name": "Salt",
+  "icon": "saltmod:salt",
+  "category": "patchouli:ores",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Salt Ore",
+      "item": "saltmod:salt_ore",
+      "text": "$(l)Depth: y = 60 - 80$()$(br2)Rock salt can be harvested near sea level anywhere in the overworld.$(br2)While digging up rock salt whenever you find it is a reasonable early source of salt, evaporating salt water is the more sustainable option."
+    },
+    {
+      "type": "crafting",
+      "title": "A Pinch of Salt",
+      "recipe": "tato6_saltmod_salt_pinch_from_salt",
+      "text": "Salt is a cornerstone of the culinary arts, beloved for its near magical ability to make even the most vile substances palatable. A pinch is really all you need for most dishes."
+    }
+  ]
+}

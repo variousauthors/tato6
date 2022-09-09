@@ -2,6 +2,46 @@
   "comment": "",
   "data": [
     {
+      "comment": "Witches Oven!",
+      "mod_id": "bewitchment",
+      "block_name": "witches_oven",
+      "states": {
+        "8": 0.6
+      }
+    },
+    {
+      "comment": "Witches Oven!",
+      "mod_id": "bewitchment",
+      "block_name": "witches_oven",
+      "states": {
+        "9": 0.6
+      }
+    },
+    {
+      "comment": "Witches Oven!",
+      "mod_id": "bewitchment",
+      "block_name": "witches_oven",
+      "states": {
+        "10": 0.6
+      }
+    },
+    {
+      "comment": "Witches Oven!",
+      "mod_id": "bewitchment",
+      "block_name": "witches_oven",
+      "states": {
+        "11": 0.6
+      }
+    },
+    {
+      "comment": "Warm Furnace!",
+      "mod_id": "minecraft",
+      "block_name": "lit_furnace",
+      "states": {
+        "32767": 0.6
+      }
+    },
+    {
       "comment": "Fire!",
       "mod_id": "minecraft",
       "block_name": "fire",

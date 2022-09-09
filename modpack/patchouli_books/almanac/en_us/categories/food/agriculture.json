@@ -1,0 +1,7 @@
+{
+  "name": "Agriculture",
+  "description": "You gotta grow crops",
+  "sortnum": 1,
+  "parent": "patchouli:food",
+	"icon": "harvestcraft:barleyitem"
+}

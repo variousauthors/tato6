@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "spotlight",
-      "title": "Iron",
+      "title": "Iron Ore",
       "item": "minecraft:iron_ore",
       "text": "$(l)Depth: y = 0 - 128$()$(br2)Iron ore veins occurs in the same distribution as in vanilla minecraft. However, iron ore veins frequently contain nickel ore in addition to iron ores."
     },

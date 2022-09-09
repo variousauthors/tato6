@@ -67,5 +67,43 @@
     "biome": "Ice Plains Spikes",
     "spawner": false,
     "result": "deny"
+  },
+  {
+    "mob": ["minecraft:creeper"],
+    "maxheight": 62,
+    "result": "default"
+  },
+  {
+    "mob": ["minecraft:creeper"],
+    "spawner": false,
+    "result": "deny"
+  },
+  {
+    "mob": ["betternether:firefly"],
+    "result": "deny"
+  },
+  {
+    "mob": ["quark:foxhound"],
+    "random": 0.5,
+    "result": "deny"
+  },
+  {
+    "mob": ["thaumcraft:firebat"],
+    "result": "deny"
+  },
+  {
+    "mob": ["thaumcraft:wisp"],
+    "random": 0.8,
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:ghast"],
+    "maxcount": 1,
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:blaze"],
+    "spawner": false,
+    "result": "deny"
   }
 ]

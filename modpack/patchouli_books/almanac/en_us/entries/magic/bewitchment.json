@@ -1,0 +1,21 @@
+{
+  "name": "Bewitchment",
+  "icon": "bewitchment:mandrake_seeds",
+  "category": "patchouli:magic",
+  "pages": [
+      {
+          "type": "text",
+          "text": "Overview of Bewitchment"
+      },
+      {
+          "type": "spotlight",
+          "item": "bewitchment:oak_apple_gall",
+          "title": "Oak Apple Gall",
+          "text": "You will need to craft wasp attractant and click it on the bark of an oak tree in order to cultivate apple gall. It won't just drop from leaves."
+      },
+      {
+          "type": "crafting",
+          "recipe": "mysticalworld:wasp_attractant"
+      }
+  ]
+}

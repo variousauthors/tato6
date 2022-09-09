@@ -41,3 +41,26 @@ recipes.addShaped('tato6_mystgears_redstone_dynamo', <mystgears:redstone_dynamo>
   [<mysticalmechanics:axle_iron>, <ore:gearGold>, <ore:blockRedstone>],
   [ironIngot, <ore:nuggetGold>, ironIngot]
 ]);
+
+// redstone gears not craftable
+
+recipes.addShaped("tato6_mysticalmechanics_gear_gold_on", <mysticalmechanics:gear_gold_on>, [
+  [<minecraft:redstone_torch>, <minecraft:redstone_torch>, <minecraft:redstone_torch>], 
+  [<minecraft:redstone_torch>, <ore:gearGold>, <minecraft:redstone_torch>], 
+  [<minecraft:redstone_torch>, <minecraft:redstone_torch>, <minecraft:redstone_torch>]
+]);
+
+recipes.addShaped("tato6_mysticalmechanics_gear_gold_off", <mysticalmechanics:gear_gold_off>, [
+  [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>], 
+  [<ore:dustRedstone>, <ore:gearGold>, <ore:dustRedstone>], 
+  [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]
+]);
+
+// add all listAllFruit to foodFruit and vis versa?
+<ore:listAllFruit>.addAll(<ore:foodFruit>);
+<ore:foodFruit>.mirror(<ore:listAllFruit>); 
+
+/** clay bucket vs unfired jar */
+
+recipes.removeByRecipeName("bewitchment:unfired_jar");
+recipes.addShaped("tato6-bewitchment-unfired_jar", <bewitchment:unfired_jar> * 3, [[null, <minecraft:clay_ball>, null], [<minecraft:clay_ball>, null, <minecraft:clay_ball>]]);

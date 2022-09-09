@@ -5,21 +5,21 @@
   "pages": [
     {
       "type": "spotlight",
-      "title": "Gold",
+      "title": "Gold Ore",
       "item": "minecraft:gold_ore",
-      "text": "$(l)Depth: y = 0 - 32$()$(br2)Gold like in vanilla but it occurs with silver mixed in."
+      "text": "$(l)Depth: y = 0 - 32$()$(br2)Iron ore veins occurs in the same distribution as in vanilla minecraft. However, gold ore veins frequently contain silver ore in addition to gold ores."
     },
     {
       "type": "spotlight",
       "title": "Mesa Gold",
       "item": "minecraft:hardened_clay",
-      "text": "$(l)Depth: y = 32 - 80$()$(br2)Gold"
+      "text": "$(l)Depth: y = 32 - 80$()$(br2)Gold ore can also be found near the surface of mesa biomes, just like in vanilla minecraft."
     },
     {
       "type": "spotlight",
       "title": "Alluvial Gold",
       "item": "gravelores:gold_gravel_ore",
-      "text": "$(l)Depth: y = 0 - 80$()$(br2)Gold"
+      "text": "$(l)Depth: y = 0 - 80$()$(br2)Gold ore can be found mixed in with gravel, as an alluvial placer deposit. You can expect to find roughly 1 gold ore in 2000 gravel blocks. For more information on gravel ores, consult the relevant chapters of the guide."
     }
   ]
 }

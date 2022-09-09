@@ -1,0 +1,40 @@
+{
+    "multipart": [
+        {
+            "when": {"facing": "north"},
+            "apply": [
+                {
+                    "model": "mystcraft:inkwell_model",
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "when": {"facing": "east"},
+            "apply": [
+                {
+                    "model": "mystcraft:inkwell_model",
+                    "y": 90
+                }
+            ]
+        },
+        {
+            "when": {"facing": "south"},
+            "apply": [
+                {
+                    "model": "mystcraft:inkwell_model",
+                    "y": 180
+                }
+            ]
+        },
+        {
+            "when": {"facing": "west"},
+            "apply": [
+                {
+                    "model": "mystcraft:inkwell_model",
+                    "y": 270
+                }
+            ]
+        }
+    ]
+}

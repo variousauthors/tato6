@@ -3,9 +3,11 @@
   "icon": "thermalfoundation:material:128",
   "category": "patchouli:ores",
   "pages": [
-      {
-          "type": "text",
-          "text": "All about copper."
-      }
+    {
+      "type": "spotlight",
+      "title": "Copper Ore",
+      "item": "thermalfoundation:ore",
+      "text": "$(l)Depth: y = 20 - 75$()$(br2)Copper ore veins are found mainly in the modded stratum and near sea-level on the surface. Silver ore can sometimes be found mixed into veins of copper."
+    }
   ]
 }

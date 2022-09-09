@@ -1,0 +1,111 @@
+{
+  "name": "Agriculture",
+  "icon": "harvestcraft:barleyitem",
+  "category": "patchouli:food",
+  "sortnum": 3,
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Agrarian life in the overworld is not as easy as hitting soggy dirt with a hoe. This section of the guide will help you navigate the various gotchas of gathering, growing, and eating.$(br2)Do yourself a favour: read the entries on water and the seasons!"
+    },
+    {
+      "type": "spotlight",
+      "title": "Water",
+      "item": "minecraft:water_bucket",
+      "text": "Unlike in vanilla minecraft, you will not be able to use sea water for irrigation. In all OCEAN or BEACH type biomes, scooping water into a bucket anywhere at or below sea level (y = 62) will net you a bucket of sea water. Rivers, lakes, and rain water are fair game, and once you get an infinite source above sea level you're fine. Be warned!"
+    },
+    {
+      "type": "spotlight",
+      "title": "The Seasons",
+      "item": "sereneseasons:ss_icon",
+      "text": "Crops in the overworld only grow during particular seasons. The tooltip for each crop item will list the seasons in which the crop grows. To ensure that you always have something to eat, you might come up with a balance of crops that grow in different seasons (or just eat mushrooms all year round)."
+    },
+    {
+      "type": "text",
+      "text": "Importantly:$(br2)Each season is seven IRL days!$(br2)That means it will be winter in the overworld for 1 entire week of your real life, so make sure to stockpile food for the winter.$(br2)Finally, some mods depend on crops and so you will likely want to stockpile heavily when those crops are in season. Specific examples will follow in the appendix to this section."
+    },
+    {
+      "type": "spotlight",
+      "title": "The Changing Seasons",
+      "item": "rustic:leaves",
+      "text": "Until you have a season clock there is no clear and easy way to tell what season it is: you must look for the signs. Obviously snow on the ground will mean it is winter, depending on where you are. A very reliable tell is the color of the leaves of rustic trees, such as ironwood and olive, as these change most vividly with"
+    },
+    {
+      "type": "crafting",
+      "recipe": "sereneseasons:season_clock",
+      "text": "the seasons. Another way is to watch crops you know only grow in particular seasons.$(br2)Once you have been to the nether, you will have the resources to craft a season clock, which will let you know clearly what season it is."
+    },
+    {
+      "type": "spotlight",
+      "title": "Cold Climates",
+      "item": "minecraft:snow",
+      "text": "In cold climates, such as the tops of high mountains, or arctic biomes, it is always winter. If you want to live at the top of an Alpine Mountain (and I know you do) then you will need to use technology to augment your agrarian endeavors."
+    },
+    {
+      "type": "spotlight",
+      "title": "Tropical Climates",
+      "item": "minecraft:cactus",
+      "text": "In hotter climates, like deserts and jungles, there are just two seasons. Actually I'm not sure exactly how it works... is it always summer? I know there's a rainy season and a dry season. I'll have to double check."
+    },
+    {
+      "type": "spotlight",
+      "title": "Barren Climates",
+      "item": "biomesoplenty:ash_block",
+      "text": "In the barren places of the worlds, like blasted wastelands, the dizzying spires of THE CRAG, or the mysterious volcanic islands, you will simply not be able to grow anything. You might be able to find a loophole though, since some plants ignore the seasons. You'll have to figure that our on your own though."
+    },
+    {
+      "type": "spotlight",
+      "title": "Fertile Climates",
+      "item": "biomesoplenty:grass:7",
+      "text": "In the most blessed, fertile, or magical climates, crops will grow all year round, paying the seasons no heed. This guide will not provide additional details on such mysterious topics."
+    },
+    {
+      "type": "spotlight",
+      "title": "Fertilizer",
+      "item": "minecraft:dye:15",
+      "text": "Right clicking a crop with bonemeal or compost will give the crop a sudden growth spurt. You can also right click tree fruit to make them mature instantly.$(br2)Bone meal is not the only source of fertilizer: a canny agrarian knows what to compost."
+    },
+    {
+      "type": "crafting",
+      "recipe": "composter:compost_bin",
+      "text": "Once you have a compost bin you can toss in pretty much anything and after some time you will get back thick brown fertilizer that has many of the same properties as bonemeal.$(br2)Be warned though, fertilizers don't work during winter!"
+    },
+    {
+      "type": "spotlight",
+      "title": "Fertile Soil",
+      "item": "rustic:fertile_soil",
+      "text": "Sometimes you want to grow crop plants in situations that preclude normal irrigation. For example, tea or strawberries make excellent decorative flowers; you might want to make some nice garden boxes away from your irrigation. For this you can use \"fertile soil\", which remains saturated even without a water source nearby."
+
+    },
+    {
+      "type": "spotlight",
+      "title": "Greenhouse Glass",
+      "item": "sereneseasons:greenhouse_glass",
+      "text": "Building a greenhouse will allow you to work around the seasonal restrictions on growing plants. If you place a piece of greenhouse glass above your crops, they will grow regardless of the season. You don't need to completely encase your plants. Bear this in mind while reading the following appendix."
+    },
+    {
+      "type": "text",
+      "title": "Appendix",
+      "text": "Some mods depend on seasonal resources, such as fertilizer or special magical crops. The following sections will discuss these restrictions."
+    },
+    {
+      "type": "spotlight",
+      "title": "Botania",
+      "item": "botania:fertilizer",
+      "text": "The magical flowers you need to start botania do not occur natually in the overworld. They can only be obtained by using \"floral fertilizer\", which does not work during winter."
+    },
+    {
+      "type": "spotlight",
+      "title": "Bewitchment",
+      "item": "bewitchment:mandrake_seeds",
+      "text": "Bewitchment depends to some extent on herbs that only grow during some seasons. Stockpile these herbs while you can since if you miss the season for a particular herb you will have to wait a long time."
+    },
+    {
+      "type": "spotlight",
+      "title": "Roots",
+      "item": "roots:wildroot",
+      "text": "Starting out in roots you will need quite a lot of wildroot, which only grows in summer. If you are interested in doing roots, you should stockpile wildroot while it is in season."
+    }
+  ]
+}

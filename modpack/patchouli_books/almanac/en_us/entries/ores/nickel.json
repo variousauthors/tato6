@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "spotlight",
-      "title": "Nickel",
+      "title": "Nickel Ore",
       "item": "thermalfoundation:ore:5",
       "text": "$(l)Depth: y = 0 - 128$()$(br2)Nickel ore is never found in nickel ore veins. Nickel occurs in combination with iron, with roughly 10% of the ore in an iron vein being nickel."
     },

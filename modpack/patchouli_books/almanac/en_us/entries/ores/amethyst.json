@@ -1,0 +1,33 @@
+{
+  "name": "Amethyst",
+  "icon": "mysticalworld:amethyst_gem",
+  "category": "patchouli:ores",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Amethyst Ore",
+      "item": "mysticalworld:amethyst_ore",
+      "text": "$(l)Depth: y = 20 - 36$()$(br2)Amethyst ore veins occur in the modded stratum with about the same frequency and distribution as diamond in the vanilla stratum. For this reason amethyst has come to be called \"modded diamond\"."
+    },
+    {
+      "type": "crafting",
+      "title": "Amethyst Tools",
+      "recipe": "mysticalworld:amethyst_pickaxe",
+      "text": "Amethyst is suitable for making tools, though not armor. Such tools are comparable in quality to diamond tools."
+    },
+    {
+      "type": "spotlight",
+      "title": "Magical Properties",
+      "item": "bewitchment:amethyst",
+      "text": "Amethyst is said to be a gem beloved by witches and faeries alike for its healing properties. An amethyst can be crafted into the blade of a druidic knife, or set into the pommel of a witches athame.$(br2)See the relevant entries for details."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "magic/bewitchment",
+        "magic/roots"
+      ]
+    }
+  ]
+}

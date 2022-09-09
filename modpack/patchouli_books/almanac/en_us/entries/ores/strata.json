@@ -6,6 +6,7 @@
   "priority": true,
   "pages": [
     {
+      "title": "Strata",
       "type": "text",
       "text": "Inventory space is limited. Any experienced miner can tell you about a time they went mining only to return home with a backpack full of ores they had no use for at all. Uranium, Osmium, Aetherium... the list of obscure ores is long. Fortunately, the natural geological conditions of the overworld result in ores being distributed in layers (strata)."
     },
@@ -30,7 +31,7 @@
     {
       "type": "spotlight",
       "title": "The Surface",
-      "item": "osv:appliedenergistics2_quartz_ore_sand",
+      "item": "minecraft:grass",
       "text": "In addition to mining below y = 70 there are a variety of resources that are found above ground, including sand ores found on beaches, rare ores found commonly at higher elevations, and some ores that are biome specific. For more information on these ores, read the relevant sections in the guide."
     }
   ]

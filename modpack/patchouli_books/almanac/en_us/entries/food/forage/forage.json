@@ -1,0 +1,102 @@
+{
+  "name": "Forage",
+  "icon": "harvestcraft:cranberryitem",
+  "category": "patchouli:food/forage",
+  "sortnum": 0,
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "title": "Forage",
+      "text": "Whether you want to call it horticulture or not is up to you, but if you aren't growing it in a field then you are probably foraging.$(br2)This section of the guide will introduce you the foods that grow wild in the overworld, and give you some tips and strategies that will help you feed yourself on your journey."
+    },
+    {
+      "type": "spotlight",
+      "title": "Gardens",
+      "item": "harvestcraft:shadedgarden",
+      "text": "Many biomes support big groups of wild bushes called \"gardens\". This is where you will find fruits, vegetables, berries and herbs! Gardens will grow back pretty quickly if you leave a few of them, but you can't shear them so you have to eat local!"
+    },
+    {
+      "type": "spotlight",
+      "title": "Wild Berries",
+      "item": "biomesoplenty:plant_0:5",
+      "text": "There are two kinds of wild berry bushes that grow across the realm. You can right click them with an empty hand to pick berries, and they will grow back. You can also harvest the whole bush with shears, so you can gather a bunch of these bushes and set them up outside your house to keep yourself saturated."
+    },
+    {
+      "type": "spotlight",
+      "title": "Apples!",
+      "item": "minecraft:apple",
+      "text": "Bright red apples will drop from oak leaves, so you will typically end up with one or two of these when you go traveling. Rather than eating them though, I recommend starting an orchard. There are 3 kinds of apple trees suitable for an orchard, and they yield a lot more apples than you'll find breaking leaves in the wild."
+    },
+    {
+      "type": "spotlight",
+      "title": "Apple Trees",
+      "item": "rustic:crushing_tub",
+      "text": "There are all kinds of ways to grow apple trees. Jump up and down on apples in a crushing tub to get seeds, or splice apples onto a sapling. Each method produces a slightly different result, so try them all!"
+    },
+    {
+      "type": "crafting",
+      "title": "Craft Apples",
+      "recipe": "growthcraft_apples:apple_sapling",
+      "recipe2": "harvestcraft:apple_sapling"
+    },
+    {
+      "type": "spotlight",
+      "title": "Fruit Trees",
+      "item": "harvestcraft:orange_sapling",
+      "text": "In addition to apples, the overworld is replete with fruit trees! When you find fruit handing from the underside of a tree you can right click them to harvest the fruit. If it doesn't work, then the fruit might not be ripe. In addition, just like with apples, you can splice fruit onto a sapling and start an orchard closer to home."
+    },
+    {
+      "type": "crafting",
+      "title": "Splicing",
+      "recipe": "harvestcraft:orange_sapling",
+      "text": "This crafting recipe works with any of the fruit or nuts you find dangling from trees, even those weird spider web trees apparently!?"
+    },
+    {
+      "type": "spotlight",
+      "title": "Seaweed",
+      "item": "biomesoplenty:seaweed",
+      "text": "This stuff grows at the bottom of the ocean, but you can collect a lot of it pretty quick and it is tasty stuff (and a source of salt!). Be warned though: the kelp you find in the oceans is not renewable! Consume with care!"
+    },
+    {
+      "type": "spotlight",
+      "title": "... and more!",
+      "item": "rustic:olives",
+      "text": "There's no way the guide could list all the different edibles plants growing in the overworld, so know that for every delicious option you've read so far, there are two more waiting out there to be discovered!"
+    },
+    {
+      "type": "text",
+      "title": "Appendix",
+      "text": "There's more to the art of foraging than just picking fruit! There are a number of tools you can use to improve your quality of life that don't require fuel or an elaborate setup. Carry these with you and you will want for nothing."
+    },
+    {
+      "type": "entity",
+      "title": "Sprouts!",
+      "entity": "mysticalworld:entity_sprout",
+      "text": "Sprouts are vegetable spirits. If you right click them with fertilizer they might return the favour."
+    },
+    {
+      "type": "spotlight",
+      "title": "The Drying Rack",
+      "item": "tconstruct:rack",
+      "text": "The drying rack is a survivalist's best friend. You can use it to make any raw meat into delicious jerky, or to make any delicious jerky into versatile if unpalatable leather. Just click the rack with the food item you want to dry, and click the rack again when it's ready."
+    },
+    {
+      "type": "spotlight",
+      "title": "Campfire",
+      "item": "futuremc:campfire",
+      "text": "The campfire is a great early game way to make food better. Once you have a campfire you can cook any food that can be cooked without using any additional fuel. You can also use it to bake bread, once you've figure out how to make dough."
+    },
+    {
+      "type": "spotlight",
+      "title": "The Juicer",
+      "item": "harvestcraft:juiceritem",
+      "text": "Carrying a juicer lets you crush your berries into delicious juices. Add a bit of snow and you've got a smoothies!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "harvestcraft:strawberryjuiceitem",
+      "recipe2": "harvestcraft:strawberrysmoothieitem"
+    }
+  ]
+}

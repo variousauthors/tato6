@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.11.0]
 
+### Added
+ - debark adds modded stripped logs
+
 ### Changes
  - upgraded Roots to v3.0.35
  - upgraded MysticLib
@@ -43,6 +46,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - biomesoplenty seaweed can now be used as a source of salt
  - tweaked salty mod's salt crystal to drop more pinches, and grow faster
    - it is better than the evaporator, but can't be "automated" (as easily?)
+ - apple gall no longer drops naturally, you must cultivate it (see the guide)
+ - adjusted growthcraft heat sources from witches oven and furnace to be sufficient
 
 ## [0.10.2]
 

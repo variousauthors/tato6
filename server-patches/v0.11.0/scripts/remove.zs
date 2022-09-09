@@ -30,8 +30,14 @@ recipes.addShaped("tato6-mekanism-paper", <minecraft:paper> * 2, [[<ore:pulpWood
 recipes.addShapeless("tato6-thermalfoundation-paper", <minecraft:paper> * 6, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <minecraft:water_bucket>]);
 
 // add the same to the trasposer
-mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:paper> * 6, <rustichromia:dust_wood>, <liquid:water> * 1000, 400);
-mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:paper> * 6, <thermalfoundation:material:800>, <liquid:water> * 1000, 400);
-mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:paper> * 6, <mekanism:sawdust>, <liquid:water> * 1000, 400);
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:paper> * 6, <rustichromia:dust_wood> * 4, <liquid:water> * 1000, 400);
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:paper> * 6, <thermalfoundation:material:800> * 4, <liquid:water> * 1000, 400);
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:paper> * 6, <mekanism:sawdust> * 4, <liquid:water> * 1000, 400);
 
-
+/** hide duplicate debark logs */
+mods.jei.JEI.removeAndHide(<debark:debarked_log_minecraft_log>);
+mods.jei.JEI.removeAndHide(<debark:debarked_log_minecraft_log:1>);
+mods.jei.JEI.removeAndHide(<debark:debarked_log_minecraft_log:2>);
+mods.jei.JEI.removeAndHide(<debark:debarked_log_minecraft_log:3>);
+mods.jei.JEI.removeAndHide(<debark:debarked_log_minecraft_log2:0>);
+mods.jei.JEI.removeAndHide(<debark:debarked_log_minecraft_log2:1>);

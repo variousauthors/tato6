@@ -1,0 +1,20 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:leaves:*"
+          ]
+        },
+        "drops": {
+          "drops": [
+            "bewitchment:oak_apple_gall"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS",
+      "drops": [{}]
+    }
+  ]
+}

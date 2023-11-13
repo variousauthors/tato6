@@ -1,0 +1,35 @@
+{
+  "name": "Roots",
+  "icon": "roots:wildroot",
+  "category": "patchouli:magic",
+  "pages": [
+      {
+          "type": "text",
+          "text": "  Describe roots."
+      },
+      {
+          "type": "spotlight",
+          "item": "roots:wildroot",
+          "title": " ",
+          "text": "  This stuff only grows in the summer."
+      },
+      {
+          "type": "spotlight",
+          "item": "thaumcraft:cinderpearl",
+          "title": "Cinderpearl",
+          "text": "  FlowerGrowth ritual. There might be processors for this type of page in roots/integration/patchouli... "
+      },
+      {
+          "type": "spotlight",
+          "item": "thaumcraft:shimmerleaf",
+          "title": "Shimmerleaf",
+          "text": "  Pyre Crafting. There might be processors for this type of page in roots/integration/patchouli"
+      },
+      {
+          "type": "spotlight",
+          "item": "thaumcraft:vishroom",
+          "title": "Vishroom",
+          "text": "  Transmutation. There might be processors etc..."
+      }
+  ]
+}

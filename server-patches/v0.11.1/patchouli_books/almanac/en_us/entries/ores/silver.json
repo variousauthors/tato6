@@ -1,0 +1,48 @@
+{
+  "name": "Silver",
+  "icon": "thermalfoundation:material:130",
+  "category": "patchouli:ores",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Elemental silver is not native to the overworld. It can be found in magical biomes and below the tallest mountains where once the dwarves made their holds.$(br2)Most silver is found in small quantities in combination with other ores such as copper, lead, and gold. More details can be found in the entries for each of those minerals."
+    },
+    {
+      "type": "spotlight",
+      "title": "Elemental Silver Ore",
+      "item": "thermalfoundation:ore:2",
+      "text": "$(l)Depth: y = 0 - 52$()$(br2)In magical biomes and below the tallest mountains, veins of elemental silver occur in the modded stratum in a gaussian distribution around y = 26. This is why silver is sometimes called 'modded lapis'."
+    },
+    {
+      "type": "text",
+      "text": "Magical biomes where silver occurs natively include:$(br)$(li)Roofed Forest$(li)Mystic Grove$(li)Ominous Woods$(li)Sacred Springs$(li)Magical Forest$(br2)Mountainous biomes where silver occurs natively include:$(br)$(li)Crag(li)Alps$(li)Mountains"
+    },
+    {
+      "type": "spotlight",
+      "title": "Copper Veins",
+      "item": "thermalfoundation:ore:0",
+      "text": "About 10% of the ore in copper veins can be smelted into silver."
+    },
+    {
+      "type": "spotlight",
+      "title": "Gold Veins",
+      "item": "minecraft:gold_ore",
+      "text": "About 2% of the ore in gold veins can be smelted into gold."
+    },
+    {
+      "type": "spotlight",
+      "title": "Lead Veins",
+      "item": "thermalfoundation:ore:3",
+      "text": "About 10% of the ore in lead veins can be smelted into gold."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "ores/copper", 
+        "ores/gold", 
+        "ores/lead", 
+        "far-overworld/magical-biomes", 
+        "far-overworld/mountainous-biomes"]
+    }
+  ]
+}

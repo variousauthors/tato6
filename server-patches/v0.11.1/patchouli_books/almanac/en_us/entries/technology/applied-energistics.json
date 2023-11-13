@@ -1,0 +1,23 @@
+{
+  "name": "Applied Energistics",
+  "icon": "appliedenergistics2:material:13",
+  "category": "patchouli:technology",
+  "pages": [
+      {
+          "type": "text",
+          "text": "Welcome to Applied Energistics 2 etc..."
+      },
+      {
+          "type": "spotlight",
+          "item": "osv:appliedenergistics2_quartz_ore_1",
+          "title": "Certus Quartz",
+          "text": "Certus Quartz does not generate in stone. It generates in other stuff... see the certus quartz page in the ore guide for details."
+      },
+      {
+          "type": "spotlight",
+          "item": "appliedenergistics2:material:1",
+          "title": "Charged Certus",
+          "text": "There is no charged certus quartz ore in the world, so you have to charge it yourself."
+      }
+  ]
+}

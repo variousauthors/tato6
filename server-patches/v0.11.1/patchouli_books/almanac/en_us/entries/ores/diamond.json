@@ -1,0 +1,14 @@
+{
+  "name": "Diamond",
+  "icon": "minecraft:diamond",
+  "category": "patchouli:ores",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Diamond Ore",
+      "item": "minecraft:diamond_ore",
+      "text": "$(l)Depth: y = 0 - 16$()$(br2)Diamond ore veins occurs in the same distribution as in vanilla minecraft."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Aluminum",
+  "icon": "thermalfoundation:material:132",
+  "category": "patchouli:ores",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Aluminum Ore",
+      "item": "embers:ore_aluminum",
+      "text": "$(l)Depth: y = 40 - 70$()$(br2)Aluminum ore veins can be found in the tertiary stratum in hot, flat biomes and tropical biomes that receive a lot of rain.$(br2)There are no known uses for aluminum beyond tools, though research is ongoing."
+    },
+    {
+      "type": "text",
+      "text": "Hot flat biomes include:$(br)$(li)Desert$(li)Savanna$(li)Brushlands$(li)Outback$(li)Chapparal$(li)Lush Desert$(br2)Tropical biomes that receive a lot of rain include:$(br)$(li)Jungle$(li)Tropical Rain Forest"
+    }
+  ]
+}

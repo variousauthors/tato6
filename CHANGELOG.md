@@ -7,19 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+### Added
+ - added thaumcraft/roots recipes for the thaumcraft plants
+
 ### Changed
  - update roots another little bit
- - added thaumcraft/roots recipes for the thaumcraft plants
+ - debarked vanilla logs work in all orientations
+ - bits back slots now hold 1 block (4k bits)
+ - fixed bbq jackfruit
+ - fixed creepers ignoring aversion obelisk
 
 ## [0.11.0]
 
 ### Added
  - debark adds modded stripped logs
+ - biome colorizer for ocean colors
 
 ### Changes
  - upgraded Roots to v3.0.35
  - upgraded MysticLib
  - upgraded Mystical World
+ - upgraded Rustic to v1.17 for some crafttweaker integrations
+ - upgraded crafttweaker
  - unified plate crafting to use the hammer properly
  - add dough -> bread to smoker and campfire
  - removed some errant flour -> bread recipes

@@ -1,0 +1,31 @@
+{
+  "name": "Lead",
+  "icon": "thermalfoundation:material:131",
+  "category": "patchouli:ores",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "Lead Ore",
+      "item": "thermalfoundation:ore:3",
+      "text": "$(l)Depth: y = 20 - 52$()$(br2)Lead ore veins occur in the modded stratum with about the same frequency and distribution as gold in the vanilla stratum. For this reason lead has come to be called \"modded gold\"."
+    },
+    {
+      "type": "text",
+      "title": "Galena",
+      "text": "It is not uncommon lead veins to contain trace amounts of silver. See the relevant page in the guide for more information."
+    },
+    {
+      "type": "spotlight",
+      "title": "Radioactivity",
+      "item": "nuclearcraft:ore:2",
+      "text": "$(l)Depth: y = 20 - 56$()$(br2)It is also possible to find veins of lead anywhere you would normally be able to find radioactive ores, such as uranium or magnesium. Lead ore itself is only slightly radioactive and poses no serious health risks."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "ores/silver",
+        "tech/nuclearcraft"
+      ]
+    }
+  ]
+}

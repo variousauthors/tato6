@@ -1,0 +1,11 @@
+{
+  "name": "Mountains Biomes",
+  "icon": "biomesoplenty:grass:1",
+  "category": "patchouli:far-overworld",
+  "pages": [
+    {
+      "type": "text",
+      "text": "List the mountains biomes here and describe the relationship with dwarves."
+    }
+  ]
+}

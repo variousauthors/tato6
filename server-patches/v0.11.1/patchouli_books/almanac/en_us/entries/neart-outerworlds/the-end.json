@@ -1,0 +1,11 @@
+{
+  "name": "The End",
+  "icon": "biomesoplenty:grass:0",
+  "category": "patchouli:near-outerworlds",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Oh you know, the end."
+    }
+  ]
+}

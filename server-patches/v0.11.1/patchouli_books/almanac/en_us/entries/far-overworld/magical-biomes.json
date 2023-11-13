@@ -1,0 +1,11 @@
+{
+  "name": "Magical Biomes",
+  "icon": "biomesoplenty:log_1:5",
+  "category": "patchouli:far-overworld",
+  "pages": [
+    {
+      "type": "text",
+      "text": "List the magical biomes here and describe the relationship with elves, the fae, and witches..."
+    }
+  ]
+}

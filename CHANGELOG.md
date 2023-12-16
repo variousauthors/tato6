@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+## [0.12.0]
+
+### Added
+ - More Buckets (that's a mod)
+ - custom Nether Grout, craftable in the nether, that can be used just like grout
+ - added recipe for mossy cobble from cobble + BoP's nether ivy
+ - pure daisy recipe for permafrost
+ - recipe to craft cobblestone from magma and soulsand
+ - recipe to craft dirt from compost and sand or soulsand
+ - tinker's alloying can use blood instead of water for some recipes
+ - blood in a drying basin gives tiny piles of iron
+
+### Changed
+ - removed all but one bucket from More Buckets and used it to create cincinnasite bucket
+ - fixed recipe for the windup spring
+ - mergebox recipe changed to use iron axle
+ - Better Nether plants are compostable
+ - Better Nether plants are all ore dicted appropriately
+ - BoP's hellbark door is doorWood
+ - Better Nether's reeds can be crushed for water in a crushing tub
+ - all cactus varieties, including Better Nether cacti, can be crushed for water in a crushing tub
+ - Better Nether's glass is all blockGlass now
+ - seared heater recipe accept's Better Nether's nether furnace
+
+## [0.11.1]
+
 ### Added
  - added thaumcraft/roots recipes for the thaumcraft plants
 

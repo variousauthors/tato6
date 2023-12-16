@@ -7,7 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
-## [0.12.0]
+## [0.12.0] - 2023-12-15
+
+The Better Better Nether Update: The Nether Just Got Better. An update for your nethering needs! Crush cacti with your feet; stand in a smeltery to make clay from your blood; craft precious items into cobble! We've pulled out all the stops in this update!
 
 ### Added
  - More Buckets (that's a mod)
@@ -31,7 +33,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - Better Nether's glass is all blockGlass now
  - seared heater recipe accept's Better Nether's nether furnace
 
-## [0.11.1]
+## [0.11.1] - 2023-11-13
+
+We've got an exciting patch release for you today folks! Craftable BBQ Jackfruit, cinderpearls, viscaps, and shimmerleaf plants all in one patch! Also contains an 80% chance to remove creepers from hard to reach places!
 
 ### Added
  - added thaumcraft/roots recipes for the thaumcraft plants
@@ -44,6 +48,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - fixed creepers ignoring aversion obelisk
 
 ## [0.11.0]
+
+Wow! It's the "Back to School Update, Part 2: salt and gall edition". Prepare to enter a world where sea water is salty, and apple gall is made by wasps. If you've ever wanted to strip the bark off an Olive tree, your time is now! Update your download!
 
 ### Added
  - debark adds modded stripped logs
@@ -86,7 +92,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.10.2]
 
-Note: it seems like I hotfixed most of these changes directly to the server and said "I'll just push it later" and never did. So I am trying to work out what changed in the mysterious 0.10.2 undocumented update and add it here.
+The "Back to School, 2022" update adds forge microblock compat for a few more blocks, addresses a very minor bug, and officially legitimately makes the nether "all about ghasts". Update your download!
 
 ### Changed
  - the nether is all about ghasts now
@@ -103,6 +109,8 @@ Note: it seems like I hotfixed most of these changes directly to the server and 
  - oops! I left some duplicate mods in there when I upgraded them ;)
 
 ## [v0.10.0]
+
+The "The Update After Next" update is all about mystcraft, so you can get yourself trapped in an unstable age while you wait for the Lunar Update to drop. Update your download!
 
 ### Added
  - Mystcraft
@@ -128,6 +136,8 @@ Note: it seems like I hotfixed most of these changes directly to the server and 
 
 ## [v0.9.0]
 
+Fun fact: this version was never released!
+
 ### Added
  - Advanced Rocketry
  - Created a custom moon for your space exploring pleasure
@@ -138,6 +148,8 @@ Note: it seems like I hotfixed most of these changes directly to the server and 
  - Oops! I accidentally added options.txt to the modpack, which is not correct. Removing it in this patch.
 
 ## [v0.8.1] - 2021-11-28
+
+If you like gears, heat, veal and chickpeas... then this patch has it all and more! If you don't like those things: what's wrong with you? Update your download!
 
 ### Added
  - custom resource-pack for katrien server: all livingwood, gearbox, wooden axle, and advanced crafting table
@@ -170,8 +182,9 @@ Note: it seems like I hotfixed most of these changes directly to the server and 
  - market can no longer be crafted or found in the JEI because it conflicts with the theme of exploration
  - remotes from simple storage network because if you need remotes you should upgrade to AE2
 
-
 ## [v0.8.0] - 2021-05-22
+
+The "This is not an update" update brings you more marble, more colour, more microblocks, and more reasons to go to the nether (one)! What are you waiting for!? Update your download!
 
 ### Added
  - MoreTweaker for tweaking bewitchment
@@ -197,6 +210,8 @@ Note: it seems like I hotfixed most of these changes directly to the server and 
 
 ## [0.7.1] - 2021-03-12
 
+Do you like fruit? How about slime? Version 0.7.1 is now available. Update your download.
+
 ### Changes
  - add orange slime as a drop from some plants in the nether, mistakenly not added in the previous version
  - a variety of swamp trees now drop slime
@@ -211,6 +226,8 @@ Note: it seems like I hotfixed most of these changes directly to the server and 
  - a patchouli book that serves as a guide to the modpack v1
 
 ## [0.7.0] - 2021-01-09
+
+Hey everyone! Welcome to the first official release of Tato6 (a.k.a. Katrien) for the Technic Launcher!
 
 ### Changes
  - add botania infusion recipes for getting the other kinds of slimes

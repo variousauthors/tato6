@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+## [0.12.1] - 2024-10-13
+
+### Changed
+- thaumcraft native clusters can be ground in a quern for x3 ore dust
+- jumping on shards of glass in a crushing tub for blood
+- wood ash is compostable
+
 ## [0.12.0] - 2023-12-15
 
 The Better Better Nether Update: The Nether Just Got Better. An update for your nethering needs! Crush cacti with your feet; stand in a smeltery to make clay from your blood; craft precious items into cobble! We've pulled out all the stops in this update!

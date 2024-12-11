@@ -39,7 +39,7 @@ recipes.addShaped('tato6-windup-box', <mystgears:windup_box>, [
 var ironNative = <thaumcraft:cluster>;
 var ironDust = <thermalfoundation:material>;
 var goldNative = <thaumcraft:cluster:1>;
-var goldDust = <thermalfoundation:material:1>*3;
+var goldDust = <thermalfoundation:material:1>;
 var copperNative = <thaumcraft:cluster:2>;
 var copperDust = <thermalfoundation:material:64>;
 var tinNative = <thaumcraft:cluster:3>;
@@ -53,13 +53,13 @@ var quicksilver = <thaumcraft:quicksilver>;
 
 // Quern Additions
 // native cluster tripple
-Quern.add('tato-6-quern-native-iron', [ironNative], [ironDust, ironDust, ironDust], 20, 1000, 1);
-Quern.add('tato-6-quern-native-gold', [goldNative], [goldDust], 20, 1000, 1);
+Quern.add('tato-6-quern-native-iron', [ironNative], [ironDust * 3], 20, 1000, 1);
+Quern.add('tato-6-quern-native-gold', [goldNative], [goldDust * 3], 20, 1000, 1);
 Quern.add('tato-6-quern-native-copper', [copperNative], [copperDust * 3], 20, 1000, 1);
-Quern.add('tato-6-quern-native-tin', [tinNative], [tinDust], 20, 1000, 1);
-Quern.add('tato-6-quern-native-silver', [silverNative], [silverDust], 20, 1000, 1);
-Quern.add('tato-6-quern-native-lead', [leadNative], [leadDust], 20, 1000, 1);
-Quern.add('tato-6-quern-native-cinnabar', [cinnabarNative], [quicksilver], 20, 1000, 1);
+Quern.add('tato-6-quern-native-tin', [tinNative], [tinDust * 3], 20, 1000, 1);
+Quern.add('tato-6-quern-native-silver', [silverNative], [silverDust * 3], 20, 1000, 1);
+Quern.add('tato-6-quern-native-lead', [leadNative], [leadDust * 3], 20, 1000, 1);
+Quern.add('tato-6-quern-native-cinnabar', [cinnabarNative], [quicksilver * 3], 20, 1000, 1);
 
 // Gin Additions
 // Gin.add(string id, IIngredient[] inputs, result[] internal, result[] external, double minPower, double maxPower, double time);

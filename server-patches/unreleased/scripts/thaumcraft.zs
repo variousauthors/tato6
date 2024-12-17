@@ -1,10 +1,67 @@
 import crafttweaker.item.IItemStack;
 
 // use arcane archive slivers to make vis crystals
-var aer = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]});
 var sliver = <arcanearchives:quartz_sliver>;
 
-mods.thaumcraft.Crucible.registerRecipe("tato6_arcane_archives_sliver_to_aer_vis_crystal", "item.crystal_essence", aer, sliver, [<aspect:aer> * 2]);
+val aspectNames = [
+  "aer",
+  "terra",
+  "ignis",
+  "aqua",
+  "ordo",
+  "perditio",
+  "vacuos",
+  "lux",
+  "motus",
+  "gelum",
+  "vitreus",
+  "metallum",
+  "victus",
+  "mortuus",
+  "potentia",
+  "permutatio",
+  "praecantatio",
+  "auram",
+  "alkimia",
+  "vitium",
+  "tenebrae",
+  "alienis",
+  "volatus",
+  "herba",
+  "instrumentum",
+  "fabrico",
+  "machina",
+  "vinculum",
+  "spiritus",
+  "cognitio",
+  "sensus",
+  "aversio",
+  "praemunio",
+  "desiderium",
+  "exanimis",
+  "bestia",
+  "humanus",
+  "sol",
+  "luna",
+  "stellae",
+  "diabolus",
+] as string[];
+
+/*
+val aspects = [
+  <aspect:aer>,
+] as IItemStack[];
+*/
+
+for i, aspectName in aspectNames {
+  var recipeName = "tato6_arcane_archives_sliver_to_" + aspectName + "_vis_crystal";
+  var visCrystal = <thaumcraft:crystal_essence>.withTag({
+    Aspects: [{amount: 1, key: aspectName}]
+  });
+
+  mods.thaumcraft.Crucible.registerRecipe(recipeName, "item.crystal_essence", visCrystal, sliver, [<aspect:aer> * 2]);
+}
+
 
 // native ore clusters from gravel ores
 var oreNames = [

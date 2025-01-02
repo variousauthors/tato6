@@ -22,8 +22,8 @@ BUILD CHECKLIST (multimc)
 1. copy any mods you added from the current instance to `unreleased/mods` and `modpack/mods`
 2. run the command `cp -r tato6-resources/tato6/ server-patches/<VERSION>/resourcepacks/tato6` to update the resourcepack
 3. rename unreleased to [release-version] and update the changelog
-4. make sure to remove any worlds/config before zipping, as these interfere with players
-5. zip the [release-version] folder and name it patch-[release-version]
+4. zip the [release-version] folder and name it patch-[release-version]
+5. make sure to remove any worlds/config before zipping, as these interfere with players
 6. export the "unreleased" instance from multimc as a zip file named overworld-[release-version].zip
 7. rename the "unreleased" instance to "[release-version]"
 8. import overworld-[release-version].zip and name it "unreleased"

@@ -5,7 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [unreleased]
+## [0.13.0]
+
+### Changed
+- BoP devil weed now drops bewitchment seeds
+- rustic brass fixture recipes now additionally accept aluminum brass
+- rustic brass chain melting recipe produces aluminum brass instead of magic brass
+- gravel ores can be used to make the corresponding native clusters
+- fixed a recipe conflict so that sentek stone nodes are craftable 
+- added a few missing seeds to the composter
+- aubergine is seasonal
+- alchemical brass can be crafted from aluminum brass in a crucible
+- precision sawmill now accepts a variety of BoP wood
+- sliver of light can be used in the crucible in place of nether quartz
+- bewitchment cauldron can be heated by campfires
+- immersive engineering hammer can be used to craft plates just like the rest of the hammers
+
+### Added
+- MCMultiPart so you can hide your mekanism ducts
+- Immersive Engineering, along with a few addons
+- the final ? round of microblocks
+
+### Removed
+- book can no longer be crafted from paper x3 + string
+- mystcraft apple gall no longer appears in the JEI
+- bewitchment apple gall no longer drops from oak leaves
 
 ## [0.12.1] - 2024-10-13
 
